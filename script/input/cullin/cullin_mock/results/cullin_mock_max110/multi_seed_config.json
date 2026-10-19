@@ -1,0 +1,10 @@
+{
+  "config_file": "../input/cullin/cullin_mock/cullin_mock_config.json",
+  "seeds": [
+    13,
+    42,
+    71
+  ],
+  "output_base": "input/cullin/cullin_mock/results/cullin_mock_max110",
+  "n_runs": 3
+}

@@ -1,0 +1,173 @@
+========================================================================
+CONDITION: MOCK  (main_cluster_edges.tsv)
+Total edges: 2926
+
+--- TOP 25 by main-cluster frequency (highest first) ---
+  AMN1	INP4A	freq=1.000000	wilson_lb=0.999895	binary=1
+  AMRA1	INP4A	freq=1.000000	wilson_lb=0.999895	binary=1
+  APBP2	INP4A	freq=1.000000	wilson_lb=0.999895	binary=1
+  APC11	LRC41	freq=1.000000	wilson_lb=0.999895	binary=1
+  APC11	LRC58	freq=1.000000	wilson_lb=0.999895	binary=1
+  APC11	SOCS6	freq=1.000000	wilson_lb=0.999895	binary=1
+  APC11	WSB1	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB1	ASB7	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB1	CSN1	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB1	INP4A	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB3	ELOB	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB3	INP4A	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB6	CSN1	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB6	ELOC	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB8	CUL5	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB8	PCMD2	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB8	RBX2	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB8	SOCS2	freq=1.000000	wilson_lb=0.999895	binary=1
+  ASB9	INP4A	freq=1.000000	wilson_lb=0.999895	binary=1
+  CAND1	FEM1C	freq=1.000000	wilson_lb=0.999895	binary=1
+  CAND1	LRC28	freq=1.000000	wilson_lb=0.999895	binary=1
+  CAND1	LRC41	freq=1.000000	wilson_lb=0.999895	binary=1
+  CAND1	LRC58	freq=1.000000	wilson_lb=0.999895	binary=1
+  CAND1	PEBB	freq=1.000000	wilson_lb=0.999895	binary=1
+  CAND1	RUNX1	freq=1.000000	wilson_lb=0.999895	binary=1
+
+--- BOTTOM 25 by main-cluster frequency (lowest first) ---
+  KAT3	RUNX3	freq=0.491135	wilson_lb=0.486003	binary=0
+  LRC14	RUNX3	freq=0.491738	wilson_lb=0.486606	binary=0
+  CUL5	RUNX2	freq=0.492315	wilson_lb=0.487182	binary=0
+  PEBB	TULP4	freq=0.492727	wilson_lb=0.487594	binary=0
+  PEBB	RBX1	freq=0.492974	wilson_lb=0.487841	binary=0
+  ASB8	RUNX2	freq=0.493056	wilson_lb=0.487923	binary=0
+  PEBB	PRAME	freq=0.493468	wilson_lb=0.488335	binary=0
+  ASB6	RUNX2	freq=0.493632	wilson_lb=0.488500	binary=0
+  PEBB	WSB1	freq=0.494099	wilson_lb=0.488966	binary=0
+  PEBB	SPSB2	freq=0.494209	wilson_lb=0.489076	binary=0
+  RUNX2	SGT1	freq=0.494401	wilson_lb=0.489268	binary=0
+  CSN3	RUNX3	freq=0.494511	wilson_lb=0.489378	binary=0
+  CSN2	RUNX2	freq=0.494758	wilson_lb=0.489625	binary=0
+  PEBB	RRNAD	freq=0.494813	wilson_lb=0.489680	binary=0
+  PEBB	T22D1	freq=0.494950	wilson_lb=0.489817	binary=0
+  LRC42	RUNX2	freq=0.495334	wilson_lb=0.490201	binary=0
+  FEM1C	RUNX2	freq=0.495416	wilson_lb=0.490283	binary=0
+  PEBB	RB40C	freq=0.495444	wilson_lb=0.490311	binary=0
+  ASB3	PEBB	freq=0.495471	wilson_lb=0.490338	binary=0
+  ELOA1	RUNX2	freq=0.495581	wilson_lb=0.490448	binary=0
+  PCMD2	RUNX3	freq=0.495691	wilson_lb=0.490558	binary=0
+  CTR9	PEBB	freq=0.495718	wilson_lb=0.490585	binary=0
+  AMN1	RUNX2	freq=0.495746	wilson_lb=0.490613	binary=0
+  RUNX3	ZER1	freq=0.495773	wilson_lb=0.490640	binary=0
+  ASB9	RUNX3	freq=0.495801	wilson_lb=0.490667	binary=0
+
+========================================================================
+CONDITION: WT  (main_cluster_edges.tsv)
+Total edges: 2926
+
+--- TOP 25 by main-cluster frequency (highest first) ---
+  AMN1	INP4A	freq=1.000000	wilson_lb=0.999776	binary=1
+  AMRA1	INP4A	freq=1.000000	wilson_lb=0.999776	binary=1
+  AMRA1	RUNX1	freq=1.000000	wilson_lb=0.999776	binary=1
+  AMRA1	RUNX2	freq=1.000000	wilson_lb=0.999776	binary=1
+  AMRA1	RUNX3	freq=1.000000	wilson_lb=0.999776	binary=1
+  APBP2	INP4A	freq=1.000000	wilson_lb=0.999776	binary=1
+  APC11	CSN7B	freq=1.000000	wilson_lb=0.999776	binary=1
+  APC11	LRC28	freq=1.000000	wilson_lb=0.999776	binary=1
+  APC11	LRC41	freq=1.000000	wilson_lb=0.999776	binary=1
+  APC11	LRC58	freq=1.000000	wilson_lb=0.999776	binary=1
+  APC11	SOCS6	freq=1.000000	wilson_lb=0.999776	binary=1
+  APC11	WSB1	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB13	ASB7	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB13	ASB8	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB13	CSN6	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB13	RB40C	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB1	ASB7	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB1	ASB8	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB1	CSN2	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB1	CUL5	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB1	ELOC	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB1	KAT3	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB1	KLDC1	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB1	PCMD1	freq=1.000000	wilson_lb=0.999776	binary=1
+  ASB1	PEBB	freq=1.000000	wilson_lb=0.999776	binary=1
+
+--- BOTTOM 25 by main-cluster frequency (lowest first) ---
+  CAND1	LEO1	freq=0.482016	wilson_lb=0.474537	binary=0
+  CAND1	ZC4H2	freq=0.482191	wilson_lb=0.474712	binary=0
+  NRBP	RUNX2	freq=0.482833	wilson_lb=0.475354	binary=0
+  LLR1	RUNX1	freq=0.484643	wilson_lb=0.477163	binary=0
+  APC11	MED8	freq=0.485286	wilson_lb=0.477804	binary=0
+  ASB9	DCNL1	freq=0.487563	wilson_lb=0.480080	binary=0
+  CAND1	PDC6I	freq=0.488380	wilson_lb=0.480897	binary=0
+  KLD10	RUNX3	freq=0.488555	wilson_lb=0.481072	binary=0
+  RUNX1	SOCS2	freq=0.489256	wilson_lb=0.481773	binary=0
+  ASB6	RUNX1	freq=0.489314	wilson_lb=0.481831	binary=0
+  AMN1	RUNX1	freq=0.489431	wilson_lb=0.481948	binary=0
+  PTOV1	RUNX2	freq=0.489548	wilson_lb=0.482064	binary=0
+  CSN6	RUNX1	freq=0.489606	wilson_lb=0.482123	binary=0
+  CAND1	WSB2	freq=0.490015	wilson_lb=0.482531	binary=0
+  FEM1B	RUNX1	freq=0.490307	wilson_lb=0.482823	binary=0
+  CSN5	RUNX3	freq=0.490307	wilson_lb=0.482823	binary=0
+  KLDC2	RUNX3	freq=0.490366	wilson_lb=0.482881	binary=0
+  CSN5	RUNX2	freq=0.490541	wilson_lb=0.483057	binary=0
+  DCNL1	RRNAD	freq=0.490716	wilson_lb=0.483232	binary=0
+  RUNX3	SGT1	freq=0.490949	wilson_lb=0.483465	binary=0
+  RUNX1	TULP4	freq=0.491125	wilson_lb=0.483640	binary=0
+  KAT3	RUNX3	freq=0.491125	wilson_lb=0.483640	binary=0
+  KAT3	RUNX2	freq=0.491125	wilson_lb=0.483640	binary=0
+  DCNL1	NRBP2	freq=0.491125	wilson_lb=0.483640	binary=0
+  CSN6	RUNX3	freq=0.491300	wilson_lb=0.483815	binary=0
+
+========================================================================
+CONDITION: VIF  (main_cluster_edges.tsv)
+Total edges: 2926
+
+--- TOP 25 by main-cluster frequency (highest first) ---
+  AMN1	BC11B	freq=1.000000	wilson_lb=0.999901	binary=1
+  AMRA1	BC11B	freq=1.000000	wilson_lb=0.999901	binary=1
+  AMRA1	INP4A	freq=1.000000	wilson_lb=0.999901	binary=1
+  APBP2	BC11B	freq=1.000000	wilson_lb=0.999901	binary=1
+  APC11	BC11B	freq=1.000000	wilson_lb=0.999901	binary=1
+  APC11	LRC28	freq=1.000000	wilson_lb=0.999901	binary=1
+  APC11	LRC41	freq=1.000000	wilson_lb=0.999901	binary=1
+  APC11	LRC58	freq=1.000000	wilson_lb=0.999901	binary=1
+  APC11	WSB1	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB13	BC11B	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB13	LRC28	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB13	PCMD2	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB1	ASB3	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB1	ASB7	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB1	ASB8	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB1	BC11B	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB1	ELOC	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB1	RUNX1	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB1	SPSB3	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB3	BC11B	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB3	CUL5	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB3	RB40C	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB3	SOCS2	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB3	SOCS6	freq=1.000000	wilson_lb=0.999901	binary=1
+  ASB6	BC11B	freq=1.000000	wilson_lb=0.999901	binary=1
+
+--- BOTTOM 25 by main-cluster frequency (lowest first) ---
+  FSD1L	RUNX2	freq=0.492689	wilson_lb=0.487722	binary=0
+  CSN7A	RUNX2	freq=0.493614	wilson_lb=0.488647	binary=0
+  MED8	PEBB	freq=0.493691	wilson_lb=0.488724	binary=0
+  CSN2	RUNX3	freq=0.493717	wilson_lb=0.488750	binary=0
+  FEM1C	PEBB	freq=0.495027	wilson_lb=0.490060	binary=0
+  LRC28	RUNX2	freq=0.495310	wilson_lb=0.490343	binary=0
+  CAND1	ZY11B	freq=0.495413	wilson_lb=0.490446	binary=0
+  APBP2	RUNX2	freq=0.495413	wilson_lb=0.490446	binary=0
+  MED8	RUNX2	freq=0.495644	wilson_lb=0.490677	binary=0
+  LRC41	RUNX3	freq=0.495721	wilson_lb=0.490754	binary=0
+  RBX1	RUNX2	freq=0.495901	wilson_lb=0.490934	binary=0
+  AMRA1	RUNX3	freq=0.495901	wilson_lb=0.490934	binary=0
+  CSN4	RUNX2	freq=0.496389	wilson_lb=0.491422	binary=0
+  MARF1	RUNX3	freq=0.496492	wilson_lb=0.491525	binary=0
+  KLD10	RUNX2	freq=0.496544	wilson_lb=0.491576	binary=0
+  CSN6	RUNX3	freq=0.496544	wilson_lb=0.491576	binary=0
+  KLDC1	RUNX3	freq=0.496646	wilson_lb=0.491679	binary=0
+  APC11	T22D4	freq=0.496646	wilson_lb=0.491679	binary=0
+  NRBP2	RUNX2	freq=0.496723	wilson_lb=0.491756	binary=0
+  KLDC3	RUNX2	freq=0.496723	wilson_lb=0.491756	binary=0
+  APC11	UBR1	freq=0.496723	wilson_lb=0.491756	binary=0
+  RUNX2	ZY11B	freq=0.496775	wilson_lb=0.491808	binary=0
+  PTOV1	RUNX2	freq=0.496775	wilson_lb=0.491808	binary=0
+  CSN5	RUNX3	freq=0.496775	wilson_lb=0.491808	binary=0
+  FEM1A	RUNX3	freq=0.496826	wilson_lb=0.491859	binary=0

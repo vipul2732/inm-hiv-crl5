@@ -1,0 +1,63 @@
+{
+  "data": {
+    "input_file": "../input/cullin_wt/1-s2.0-S1931312819302537-mmc2.xlsx",
+    "prey_column": "PreyGene",
+    "filter": "all",
+    "enforce_bait_remapping": true,
+    "sheet_nums": 1,
+    "selected_sheet_indices": [
+      0
+    ],
+    "selected_sheet_names": [
+      "Table_S1A"
+    ]
+  },
+  "model": {
+    "name": "model23_n",
+    "rseed": 13,
+    "model_id": 0
+  },
+  "sampling": {
+    "num_warmup": 50,
+    "num_samples": 100,
+    "thinning": 1,
+    "target_accept_prob": 0.8,
+    "progress_bar": true
+  },
+  "hyperparameters": {
+    "alpha": 0.02,
+    "beta": 0.1,
+    "thresholds": [
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
+      1.0
+    ],
+    "n_null_bins": 80,
+    "disconnectivity_distance": 10,
+    "max_distance": 11,
+    "use_indirect_saint": true,
+    "indirect_saint_threshold": 0.3,
+    "max_proteins": 50,
+    "max_edges": 150,
+    "hardcoded_expected_edges": 300,
+    "hardcoded_expected_edges_std": 100
+  },
+  "output": {
+    "output_dir": "../input/cullin_wt/results/1-s2.0-S1931312819302537-mmc2",
+    "save_warmup": false,
+    "include_extra_fields": false
+  },
+  "figures": {
+    "generate": false
+  },
+  "imp": {
+    "generate": false,
+    "threshold": 0.7,
+    "benchmark": false,
+    "pdb_dir": null,
+    "corum_file": null
+  }
+}

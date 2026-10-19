@@ -1,0 +1,122 @@
+{
+  "main_cluster_dir": "../post_sampling_analysis/base_models/cullin_vif_config_multi_seeds/main_cluster_network",
+  "mean_freq_npy": "../post_sampling_analysis/base_models/cullin_vif_config_multi_seeds/main_cluster_network/mean_edges_main_cluster.npy",
+  "model_data_pkl": "../results/cullin_vif_config_multi_seeds/seed_13/0_model23_n_13_model_data.pkl",
+  "n_edges": 2926,
+  "N": 77,
+  "has_edge_filter_map": false,
+  "saint_positive_threshold": 1e-06,
+  "has_scipy": true,
+  "has_pandas": true,
+  "centroid_frequency_vs_apms_similarity": {
+    "all_edges": {
+      "n": 2926,
+      "pearson_r": 0.9591510124123209,
+      "pearson_p": 0.0,
+      "spearman_r": 0.8220047707083322,
+      "spearman_p": 0.0
+    },
+    "subset_input_top_quartile": {
+      "n": 732,
+      "pearson_r": -0.19454664413917977,
+      "pearson_p": 1.1246804196193363e-07,
+      "spearman_r": -0.19108498728213266,
+      "spearman_p": 1.8972076323463784e-07
+    },
+    "shuffle_null_pearson": {
+      "mean_abs_r_perm": 0.015542499442626695,
+      "frac_perm_ge_observed": 0.0
+    }
+  },
+  "centroid_frequency_vs_saint_stored_model_data": {
+    "vector_note": "model_data pickle (saint_max_pair_score_edgelist)",
+    "saint_max": 0.0,
+    "all_edges": {
+      "n": 2926,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "spearman_r": NaN,
+      "spearman_p": NaN
+    },
+    "subset_input_gt_threshold": {
+      "n": 0,
+      "pearson_r": NaN,
+      "pearson_p": NaN,
+      "spearman_r": NaN,
+      "spearman_p": NaN
+    },
+    "shuffle_null_pearson": {
+      "mean_abs_r_perm": NaN,
+      "frac_perm_ge_observed": NaN
+    }
+  },
+  "note_saint_model_data_all_zero": "Stored SAINT edgelist is all-zero (often when baits are not graph nodes). Use ``centroid_frequency_vs_saint_derived_from_composite`` or ``--saint-npy``.",
+  "centroid_frequency_vs_saint_derived_from_composite": {
+    "composite_tsv": "../results/cullin_vif_config_multi_seeds/seed_13/preprocessed/composite_table.tsv",
+    "saint_max": 1.0,
+    "definition": "Direct SAINT on edges where bait and prey are graph nodes; plus indirect prey\u2013prey under the same bait (geometric mean), with baits allowed off-graph for building prey sets (diagnostic relaxation vs strict model_data pipeline).",
+    "all_edges": {
+      "n": 2926,
+      "pearson_r": 0.9247098340200116,
+      "pearson_p": 0.0,
+      "spearman_r": 0.6281051057788322,
+      "spearman_p": 6.383e-321
+    },
+    "subset_input_gt_threshold": {
+      "n": 2502,
+      "pearson_r": 0.8124183758173089,
+      "pearson_p": 0.0,
+      "spearman_r": 0.2911563397552412,
+      "spearman_p": 4.452054912490947e-50
+    },
+    "shuffle_null_pearson": {
+      "mean_abs_r_perm": 0.014667528968879824,
+      "frac_perm_ge_observed": 0.0
+    }
+  },
+  "centroid_frequency_vs_n_common_baits": {
+    "definition": "Per graph edge (prey\u2013prey pair): number of baits B such that both proteins appear as Prey in composite_table with MSscore > min_msscore for that bait.",
+    "composite_tsv": "../results/cullin_vif_config_multi_seeds/seed_13/preprocessed/composite_table.tsv",
+    "n_baits_with_any_graph_prey": 3,
+    "min_msscore_for_prey_in_bait_set": 0.0,
+    "all_edges": {
+      "n": 2926,
+      "pearson_r": 0.44296312653472225,
+      "pearson_p": 6.845714420258391e-141,
+      "spearman_r": 0.6056523602166142,
+      "spearman_p": 1.676554424603486e-292
+    },
+    "subset_input_top_quartile": {
+      "n": 794,
+      "pearson_r": -0.11732025086364503,
+      "pearson_p": 0.0009260283914011286,
+      "spearman_r": -0.08930127064100415,
+      "spearman_p": 0.011822503086592079
+    },
+    "shuffle_null_pearson": {
+      "mean_abs_r_perm": 0.01466245099119552,
+      "frac_perm_ge_observed": 0.0
+    },
+    "subset_n_common_baits_ge_1": {
+      "n": 2698,
+      "pearson_r": 0.09251997900826034,
+      "pearson_p": 1.4808783981481597e-06,
+      "spearman_r": 0.5035048931454872,
+      "spearman_p": 2.064328867510777e-173
+    },
+    "subset_n_common_baits_ge_2": {
+      "n": 794,
+      "pearson_r": -0.11732025086364503,
+      "pearson_p": 0.0009260283914011286,
+      "spearman_r": -0.08930127064100415,
+      "spearman_p": 0.011822503086592079
+    },
+    "stratify_mean_n_common_baits_by_centroid": {
+      "centroid_freq_cutoff": 0.6,
+      "mean_n_common_baits_when_freq_ge_cutoff": 1.306310254163015,
+      "mean_n_common_baits_when_freq_lt_cutoff": 0.7981366459627329,
+      "n_edges_freq_ge_cutoff": 2282,
+      "n_edges_freq_lt_cutoff": 644
+    }
+  }
+}

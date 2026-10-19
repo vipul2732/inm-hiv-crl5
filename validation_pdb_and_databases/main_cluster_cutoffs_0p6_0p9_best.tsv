@@ -1,0 +1,4 @@
+dataset	best_threshold	best_enrichment	n_freq_ge_at_best	n_freq_lt_at_best
+WT	0.9	8.173674313651748	2659	267
+MOCK	0.9	4.419516728624535	2690	236
+VIF	0.9	5.3125	2688	238

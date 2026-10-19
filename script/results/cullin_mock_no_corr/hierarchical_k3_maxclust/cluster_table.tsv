@@ -1,0 +1,4 @@
+cluster_id	n_draws	hamming_exact	hamming_iid_expected	hamming_reported	precision_index	used_exact
+1	2	201.000000	100.500000	201.000000	0.931306	True
+2	29997		208.308592	208.308592	0.928808	False
+3	1		0.000000	0.000000	1.000000	False

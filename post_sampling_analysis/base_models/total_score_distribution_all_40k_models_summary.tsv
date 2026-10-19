@@ -1,0 +1,4 @@
+dataset	seeds	n_samples	mean	median	std
+cullin_mock_config_multi_seeds	13,42,71,100	40000	-5239.908203	-5240.422852	37.479969
+cullin_wt_config_multi_seeds	13,42,71,100	40000	-5637.345215	-5637.773926	37.672871
+cullin_vif_config_multi_seeds	13,42,71,100	40000	-4971.115723	-4971.494629	37.808636

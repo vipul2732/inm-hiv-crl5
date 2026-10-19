@@ -1,0 +1,43 @@
+================================================================================
+COMMUNITY DETECTION COMPARISON REPORT
+================================================================================
+
+Edge source: main_cluster_binary
+Both networks: centroid hard binary M from τ* largest-cluster draws (mean edge frequency ≥ 0.6; main_cluster_binary_freq_ge_0p6.npy); no TSV edge lists.
+
+NETWORK STATISTICS
+--------------------------------------------------------------------------------
+VIF-dependent (WT) network:
+  Nodes: 77
+  Edges: 2369
+  Communities: 2
+  Modularity: 0.0507
+
+VIF KO (VIF) network:
+  Nodes: 77
+  Edges: 2282
+  Communities: 3
+  Modularity: 0.0469
+
+================================================================================
+COMMUNITY PARTITION COMPARISON (LABEL-INVARIANT)
+--------------------------------------------------------------------------------
+Shared proteins: 70
+Average best-match Jaccard similarity: 0.7589
+VIF-dependent (WT)-specific proteins: 7
+VIF KO (VIF)-specific proteins: 7
+ARI (shared proteins): 0.6362
+NMI (shared proteins): 0.5166
+
+================================================================================
+COMMUNITY DETAILS
+--------------------------------------------------------------------------------
+
+VIF-dependent (WT) communities:
+  Community 0: 51 proteins
+  Community 1: 26 proteins
+
+VIF KO (VIF) communities:
+  Community 0: 48 proteins
+  Community 1: 24 proteins
+  Community 2: 5 proteins

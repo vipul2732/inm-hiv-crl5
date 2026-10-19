@@ -1,0 +1,37 @@
+{
+  "dataset": "cullin_mock_no_corr",
+  "n_chains": 4,
+  "sample_A_chain_indices": [
+    0,
+    1
+  ],
+  "sample_B_chain_indices": [
+    2,
+    3
+  ],
+  "global_fraction_sample_A": 0.5,
+  "min_cluster_size_for_mixing_test": 50,
+  "alpha": 0.05,
+  "mixing_test": "two-sided binomial for n_A | n with p0 = global P(A); Bonferroni per tau",
+  "sampling_precision_tau_scan_meta": {
+    "tau_finest_mixing_pass_on_grid": 2.0,
+    "tau_coarsest_mixing_pass_on_grid": 224.61609040226006,
+    "tau_first_mixing_fail_scan_high_to_low": 209.53346258405625,
+    "n_tau_grid_points": 301
+  },
+  "note_tau_interpretation": "tau is cophenetic distance cut (scipy fcluster criterion=distance). Grid scans from large tau (few clusters) to small tau (more clusters). tau_first_mixing_fail_scan_high_to_low: first grid point (coarse-to-fine order) where a cluster fails the A/B binomial test. tau_finest_mixing_pass_on_grid: smallest tau on the grid where all clusters still pass.",
+  "cluster_precision_at_balanced_k3": {
+    "balanced_k3_distance_tau": 223.0606616042594,
+    "balanced_k3_size_imbalance_max_over_min": 39998.0,
+    "k3_partition_mode": "distance_cut_k3",
+    "cluster_precision": {
+      "dominant_cluster_id": 1,
+      "n_draws_dominant": 39998,
+      "hamming_majority_vote_mean_to_C": 10,
+      "hamming_majority_vote_mean_over_n_edges": 0.003417634996582365,
+      "mean_hamming_draw_to_C": 901.9120956047802,
+      "median_hamming_draw_to_C": 902.0,
+      "rms_hamming_draw_to_C": 902.271810360375
+    }
+  }
+}

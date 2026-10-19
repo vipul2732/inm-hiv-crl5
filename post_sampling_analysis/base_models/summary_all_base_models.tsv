@@ -1,0 +1,4 @@
+dataset	n_chains	n_samples_total	linkage_input	mean_cross_chain_freq_spread	min_chain_freq_pearson_r	mean_edge_binary_entropy_bits	frac_edges_ambiguous	approx_frac_unique_draws_subsample	z_rhat_max	sampling_precision_tau	n_clusters_at_tau
+cullin_mock_config_multi_seeds	4	40000	all_merged_draws	0.007110	0.999775	0.743456	0.857143	1.000000	1.000226	1028.0596	1631
+cullin_wt_config_multi_seeds	4	40000	all_merged_draws	0.006981	0.999766	0.758000	0.884142	1.000000	1.000274	1044.5677	1644
+cullin_vif_config_multi_seeds	4	40000	all_merged_draws	0.006543	0.999834	0.712420	0.831511	1.000000	1.000259	975.84398	2440

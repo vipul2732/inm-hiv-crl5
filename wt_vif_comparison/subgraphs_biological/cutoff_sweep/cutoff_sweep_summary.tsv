@@ -1,0 +1,6 @@
+cutoff	wt_nodes	wt_edges	wt_communities	vif_nodes	vif_edges	vif_communities	mock_nodes	mock_edges	mock_communities	wt_vif_module_comm	wt_vif_module_nodes	wt_csn_curated_comm	vif_crl5_comm	vif_runx_comm	vif_hif_comm
+0.6	77	2369	2	77	2282	3	73	2247	3	1	26	0	1	2.0	0
+0.62	77	2348	2	77	2265	3	73	2234	3	1	26	0	1	2.0	0
+0.64	77	2306	3	75	2225	3	73	2220	3	1	29	0	1	2.0	0
+0.66	77	2237	2	72	2181	2	73	2146	2	1	36	0	1		0
+0.68	74	2131	2	72	2114	2	73	1996	2	1	34	1	1		0

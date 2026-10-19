@@ -1,0 +1,13 @@
+{
+  "num_nodes": 27,
+  "num_edges": 100,
+  "density": 0.2849002849002849,
+  "is_connected": false,
+  "num_connected_components": 2,
+  "mean_degree": 7.407407407407407,
+  "max_degree": 10,
+  "min_degree": 1,
+  "average_path_length": null,
+  "diameter": null,
+  "mean_clustering": 0.7145796590241034
+}

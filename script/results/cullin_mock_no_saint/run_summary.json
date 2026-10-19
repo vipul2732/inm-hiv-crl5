@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "seed": 13,
+      "success": true,
+      "output_dir": "results/cullin_mock_no_saint/seed_13"
+    },
+    {
+      "seed": 42,
+      "success": true,
+      "output_dir": "results/cullin_mock_no_saint/seed_42"
+    },
+    {
+      "seed": 71,
+      "success": true,
+      "output_dir": "results/cullin_mock_no_saint/seed_71"
+    }
+  ],
+  "successful_count": 3,
+  "failed_count": 0
+}

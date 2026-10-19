@@ -1,0 +1,11 @@
+{
+  "config_file": "../input/cullin/cullin_wt/config_no_priors.json",
+  "seeds": [
+    13,
+    42,
+    71,
+    100
+  ],
+  "output_base": "results/cullin_wt_no_priors",
+  "n_runs": 4
+}

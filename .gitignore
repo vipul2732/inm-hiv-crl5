@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+._*
+.cache/
+*.log
+~$*
+pdb/cache/
+# Posterior samples are regenerated locally and exceed GitHub's 100 MB file limit.
+*.pkl

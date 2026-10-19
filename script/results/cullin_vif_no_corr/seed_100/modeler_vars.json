@@ -1,0 +1,20 @@
+{
+  "alpha": 0.02,
+  "beta": 0.1,
+  "thresholds": [
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "n_null_bins": 80,
+  "disconectivity_distance": 10,
+  "max_distance": 11,
+  "use_indirect_saint": true,
+  "indirect_saint_threshold": 0.3,
+  "rseed": 100,
+  "max_proteins": 80,
+  "protein_selection": "score"
+}

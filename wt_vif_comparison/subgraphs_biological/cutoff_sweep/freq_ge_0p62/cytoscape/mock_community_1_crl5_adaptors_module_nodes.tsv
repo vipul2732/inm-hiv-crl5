@@ -1,0 +1,20 @@
+id	label	biological_group	louvain_comm	fill_color	border_color	degree	condition
+APC11	APC11	CRL5 / RBX / neddylation	1	#DDD6FE	#7C3AED	12	Mock
+ASB1	ASB1	ASB / other	1	#E2E8F0	#64748B	18	Mock
+ASB13	ASB13	ASB / other	1	#E2E8F0	#64748B	18	Mock
+ASB3	ASB3	ASB / other	1	#E2E8F0	#64748B	18	Mock
+ASB6	ASB6	ASB / other	1	#E2E8F0	#64748B	17	Mock
+ASB7	ASB7	ASB / other	1	#E2E8F0	#64748B	18	Mock
+ASB8	ASB8	ASB / other	1	#E2E8F0	#64748B	16	Mock
+CAND1	CAND1	CRL5 / RBX / neddylation	1	#DDD6FE	#7C3AED	14	Mock
+CUL5	CUL5	CRL5 / RBX / neddylation	1	#DDD6FE	#7C3AED	18	Mock
+INP4A	INP4A	CRL5 / RBX / neddylation	1	#DDD6FE	#7C3AED	18	Mock
+NEDD8	NEDD8	CRL5 / RBX / neddylation	1	#DDD6FE	#7C3AED	17	Mock
+PCMD1	PCMD1	CRL5 / RBX / neddylation	1	#DDD6FE	#7C3AED	18	Mock
+PCMD2	PCMD2	CRL5 / RBX / neddylation	1	#DDD6FE	#7C3AED	18	Mock
+RB40C	RB40C	CRL5 / RBX / neddylation	1	#DDD6FE	#7C3AED	18	Mock
+RBX2	RBX2	CRL5 / RBX / neddylation	1	#DDD6FE	#7C3AED	18	Mock
+SOCS2	SOCS2	ASB / other	1	#E2E8F0	#64748B	16	Mock
+SPSB2	SPSB2	ASB / other	1	#E2E8F0	#64748B	16	Mock
+SPSB3	SPSB3	ASB / other	1	#E2E8F0	#64748B	16	Mock
+TULP4	TULP4	CRL5 / RBX / neddylation	1	#DDD6FE	#7C3AED	18	Mock

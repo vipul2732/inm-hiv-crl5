@@ -1,0 +1,53 @@
+[
+  {
+    "n_pairs_universe": 2926,
+    "n_known_positive": 411,
+    "n_predicted_edge": 2690,
+    "n_tp_predicted_and_db": 403,
+    "n_predicted_not_in_db_unlabeled": 2287,
+    "n_known_positive_missed": 8,
+    "recall_known_positives": 0.9805352798053528,
+    "precision_among_predicted_edges": 0.14981412639405203,
+    "rate_known_pos_given_predicted": 0.14981412639405203,
+    "rate_known_pos_given_not_predicted": 0.03389830508474576,
+    "enrichment_predicted_vs_not": 4.419516728624535,
+    "dataset": "MOCK",
+    "comparison_tsv": "../validation_pdb_and_databases/cullin_mock_database_comparison.tsv",
+    "binary_npy": "../post_sampling_analysis/base_models/cullin_mock_config_multi_seeds/main_cluster_network/main_cluster_binary_freq_ge_0p9.npy",
+    "model_data_pkl": "../results/cullin_mock_config_multi_seeds/seed_13/0_model23_n_13_model_data.pkl"
+  },
+  {
+    "n_pairs_universe": 2926,
+    "n_known_positive": 412,
+    "n_predicted_edge": 2659,
+    "n_tp_predicted_and_db": 407,
+    "n_predicted_not_in_db_unlabeled": 2252,
+    "n_known_positive_missed": 5,
+    "recall_known_positives": 0.9878640776699029,
+    "precision_among_predicted_edges": 0.15306506205340353,
+    "rate_known_pos_given_predicted": 0.15306506205340353,
+    "rate_known_pos_given_not_predicted": 0.018726591760299626,
+    "enrichment_predicted_vs_not": 8.173674313651748,
+    "dataset": "WT",
+    "comparison_tsv": "../validation_pdb_and_databases/cullin_wt_database_comparison.tsv",
+    "binary_npy": "../post_sampling_analysis/base_models/cullin_wt_config_multi_seeds/main_cluster_network/main_cluster_binary_freq_ge_0p9.npy",
+    "model_data_pkl": "../results/cullin_wt_config_multi_seeds/seed_13/0_model23_n_13_model_data.pkl"
+  },
+  {
+    "n_pairs_universe": 2926,
+    "n_known_positive": 366,
+    "n_predicted_edge": 2688,
+    "n_tp_predicted_and_db": 360,
+    "n_predicted_not_in_db_unlabeled": 2328,
+    "n_known_positive_missed": 6,
+    "recall_known_positives": 0.9836065573770492,
+    "precision_among_predicted_edges": 0.13392857142857142,
+    "rate_known_pos_given_predicted": 0.13392857142857142,
+    "rate_known_pos_given_not_predicted": 0.025210084033613446,
+    "enrichment_predicted_vs_not": 5.3125,
+    "dataset": "VIF",
+    "comparison_tsv": "../validation_pdb_and_databases/cullin_vif_database_comparison.tsv",
+    "binary_npy": "../post_sampling_analysis/base_models/cullin_vif_config_multi_seeds/main_cluster_network/main_cluster_binary_freq_ge_0p9.npy",
+    "model_data_pkl": "../results/cullin_vif_config_multi_seeds/seed_13/0_model23_n_13_model_data.pkl"
+  }
+]

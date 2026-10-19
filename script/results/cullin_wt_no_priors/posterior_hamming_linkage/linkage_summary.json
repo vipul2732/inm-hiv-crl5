@@ -1,0 +1,50 @@
+{
+  "linkage": "average",
+  "distance_metric": "cityblock (Hamming sum on 0/1)",
+  "n_draws_clustered": 40000,
+  "n_edges": 2926,
+  "cluster_input_note": "all_merged_draws",
+  "partition_note": "draw_labels_full_posterior.npy: all draws in one cluster. draw_labels_sampling_precision.npy: fcluster at sampling_precision_tau (finest \u03c4 where A/B chain mixing tests pass at every cluster; see tau_balance_scan.json).",
+  "sampling_precision_balance": {
+    "sampling_precision_tau": 143.18788922104005,
+    "first_tau_failing_mixing_scan_high_to_low": 142.81107898624782,
+    "n_clusters_at_sampling_precision_tau": 15,
+    "cluster_sizes_at_sampling_precision_tau": [
+      39836,
+      35,
+      26,
+      26,
+      18,
+      12,
+      12,
+      11,
+      7,
+      7,
+      4,
+      2,
+      2,
+      1,
+      1
+    ],
+    "sample_ab_legend": {
+      "sample_A": "draws from first \u230aK/2\u230b MCMC chains (merged order)",
+      "sample_B": "draws from remaining chains",
+      "chain_indices_sample_A": [
+        0,
+        1
+      ],
+      "chain_indices_sample_B": [
+        2,
+        3
+      ],
+      "global_frac_sample_A": 0.5
+    },
+    "mixing_test": "Per \u03c4: for each cluster with n >= min_cluster_size, two-sided binomial H0: P(draw in sample A | cluster) = p0, p0 = global fraction in A (first \u230aK/2\u230b chains); Bonferroni alpha across clusters tested at that \u03c4.",
+    "min_cluster_size_for_mixing_test": 50,
+    "mixing_test_alpha": 0.05,
+    "n_tau_grid_points": 401,
+    "criterion": "scipy.cluster.hierarchy.fcluster(Z, tau, criterion='distance')",
+    "scan_order": "tau decreasing (coarse to fine); stop at first \u03c4 with a mixing-test failure",
+    "cluster_sample_ab_at_sampling_precision_tsv": "results/cullin_wt_no_priors/posterior_hamming_linkage/cluster_sample_ab_at_sampling_precision.tsv"
+  }
+}

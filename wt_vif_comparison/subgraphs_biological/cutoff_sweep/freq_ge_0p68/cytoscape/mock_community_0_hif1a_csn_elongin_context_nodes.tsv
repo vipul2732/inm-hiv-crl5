@@ -1,0 +1,20 @@
+id	label	biological_group	louvain_comm	fill_color	border_color	degree	condition
+AMN1	AMN1	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+AMRA1	AMRA1	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+APBP2	APBP2	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+ASB9	ASB9	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+CDC73	CDC73	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+CTR9	CTR9	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+CUL2	CUL2	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+ELOA1	ELOA1	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+FEM1B	FEM1B	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+FEM1C	FEM1C	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+FSD1L	FSD1L	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+HIF1A	HIF1A	HIF1A	0	#FECACA	#DC2626	18	Mock
+KLD10	KLD10	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+KLDC2	KLDC2	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+KLDC3	KLDC3	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+LEO1	LEO1	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+LRC14	LRC14	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+LRC28	LRC28	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock
+LRC41	LRC41	Neighbors (comm. 0)	0	#F1F5F9	#94A3B8	18	Mock

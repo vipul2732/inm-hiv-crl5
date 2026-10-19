@@ -1,0 +1,2 @@
+dataset	tau_finest_mixing_pass	tau_first_mixing_fail	balanced_k3_tau	k3_mode	k3_imbalance	dominant_cluster_id	mean_hamming_draw_to_C	hamming_majority_vote_to_C
+cullin_mock_no_corr	2.0	209.53346258405625	223.0606616042594	distance_cut_k3	39998.0	1	901.9120956047802	10

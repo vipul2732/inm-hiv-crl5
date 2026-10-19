@@ -1,0 +1,14 @@
+{
+  "source": "merged_chains",
+  "merged_chains": "../results/cullin_wt_config_multi_seeds/merged/merged_chains.pkl",
+  "labels": "../post_sampling_analysis/base_models/cullin_wt_config_multi_seeds/posterior_hamming_linkage/draw_labels_sampling_precision.npy",
+  "cluster_label": 1643,
+  "largest_cluster_mode": true,
+  "n_draws_used": 21896,
+  "n_edges": 2926,
+  "method": "wilson",
+  "alpha_two_sided": 0.05,
+  "out_npy": "../post_sampling_analysis/base_models/cullin_wt_config_multi_seeds/posterior_hamming_linkage/wilson_lb_edges_cluster_1.npy",
+  "z_binary_threshold": 0.5,
+  "per_draw_binary_rule": "M = 1 if Z > 0.5 else 0"
+}

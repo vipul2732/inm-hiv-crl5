@@ -1,0 +1,56 @@
+{
+  "k_clusters": 3,
+  "linkage": "average",
+  "distance_metric": "cityblock (Hamming sum on 0/1)",
+  "n_draws_clustered": 40000,
+  "n_edges": 2926,
+  "per_cluster": [
+    {
+      "cluster_id": 1,
+      "n_draws": 39998,
+      "cluster_mean_pairwise_hamming_exact": null,
+      "cluster_expected_hamming_iid_marginals": 184.29810452345708,
+      "cluster_hamming_reported": 184.29810452345708,
+      "cluster_precision_index_1_minus_norm_hamming": 0.9370136348176838,
+      "used_exact_pairwise_hamming": false
+    },
+    {
+      "cluster_id": 2,
+      "n_draws": 1,
+      "cluster_mean_pairwise_hamming_exact": null,
+      "cluster_expected_hamming_iid_marginals": 0.0,
+      "cluster_hamming_reported": 0.0,
+      "cluster_precision_index_1_minus_norm_hamming": 1.0,
+      "used_exact_pairwise_hamming": false
+    },
+    {
+      "cluster_id": 3,
+      "n_draws": 1,
+      "cluster_mean_pairwise_hamming_exact": null,
+      "cluster_expected_hamming_iid_marginals": 0.0,
+      "cluster_hamming_reported": 0.0,
+      "cluster_precision_index_1_minus_norm_hamming": 1.0,
+      "used_exact_pairwise_hamming": false
+    }
+  ],
+  "cluster_maxclust_id_1": {
+    "cluster_id": 1,
+    "n_draws": 39998,
+    "cluster_mean_pairwise_hamming_exact": null,
+    "cluster_expected_hamming_iid_marginals": 184.29810452345708,
+    "cluster_hamming_reported": 184.29810452345708,
+    "cluster_precision_index_1_minus_norm_hamming": 0.9370136348176838,
+    "used_exact_pairwise_hamming": false
+  },
+  "largest_cluster_by_draw_count": {
+    "cluster_id": 1,
+    "n_draws": 39998,
+    "cluster_mean_pairwise_hamming_exact": null,
+    "cluster_expected_hamming_iid_marginals": 184.29810452345708,
+    "cluster_hamming_reported": 184.29810452345708,
+    "cluster_precision_index_1_minus_norm_hamming": 0.9370136348176838,
+    "used_exact_pairwise_hamming": false
+  },
+  "exact_pairwise_hamming_only_if_n_draws_le": 4000,
+  "cluster_input_note": "all_merged_draws"
+}

@@ -1,0 +1,13 @@
+Condition	Model	Score_kind	AUROC	N_pairs	N_known_positives
+wt	Full model	edge_frequency_main_cluster	0.6709702365780754	2926	412
+wt	No AP-MS profile similarity score	edge_frequency_main_cluster	0.6729634435510655	2926	412
+wt	No SAINT-derived score	edge_frequency_main_cluster	0.6622337241544439	2926	412
+wt	No priors	edge_frequency_main_cluster	0.670616392860177	2926	412
+vif	Full model	edge_frequency_main_cluster	0.716276575307377	2926	366
+vif	No AP-MS profile similarity score	edge_frequency_main_cluster	0.7082121968920765	2926	366
+vif	No SAINT-derived score	edge_frequency_main_cluster	0.7021329619193989	2926	366
+vif	No priors	edge_frequency_main_cluster	0.712223574112022	2926	366
+mock	Full model	edge_frequency_main_cluster	0.6850778540436215	2926	411
+mock	No AP-MS profile similarity score	edge_frequency_main_cluster	0.6957699061107805	2926	411
+mock	No SAINT-derived score	edge_frequency_main_cluster	0.6712372964161502	2926	411
+mock	No priors	edge_frequency_main_cluster	0.6895860844664374	2926	411

@@ -1,0 +1,124 @@
+====================================================================================================
+WT vs VIF KNOCKOUT COMPARISON REPORT
+====================================================================================================
+
+SUMMARY STATISTICS
+----------------------------------------------------------------------------------------------------
+
+WT (with VIF) total interactions: 500
+VIF Knockout total interactions: 500
+Shared interactions: 425 (85.0% of WT)
+VIF-dependent interactions: 75 (15.0% of WT)
+VIF KO-specific interactions: 75
+
+KEY PROTEINS IN VIF-DEPENDENT INTERACTIONS
+----------------------------------------------------------------------------------------------------
+
+   Protein  VIF_Dependent_Interactions  Average_Probability  Max_Probability
+     DCA11                          12             0.684719         0.690062
+      ELOB                          10             0.683242         0.689267
+vifprotein                           9             0.687339         0.690153
+      ELOC                           9             0.683369         0.689202
+      CUL5                           8             0.683262         0.690153
+      PEBB                           7             0.684512         0.689854
+      RBX2                           5             0.682858         0.690043
+      CUL2                           5             0.684125         0.686070
+     NEDD8                           5             0.681500         0.685026
+     T22D4                           5             0.678922         0.679138
+     PDC6I                           4             0.681753         0.684358
+     SOCS7                           4             0.679690         0.680437
+     LRC58                           4             0.679364         0.679890
+      AMN1                           4             0.678910         0.679029
+      KAT3                           3             0.680871         0.682405
+      CSN2                           3             0.682137         0.682292
+     AMRA1                           3             0.681132         0.681832
+     RB40C                           3             0.680648         0.681176
+     NRBP2                           3             0.679063         0.679080
+      RBX1                           2             0.682006         0.682416
+
+TOP 20 VIF-DEPENDENT INTERACTIONS
+----------------------------------------------------------------------------------------------------
+
+1. CUL5 - vifprotein
+   Probability: 0.6902
+   UniProt IDs: Q93034 - VIFPROTEIN
+
+2. DCA11 - vifprotein
+   Probability: 0.6901
+   UniProt IDs: Q8TEB1 - VIFPROTEIN
+
+3. RBX2 - vifprotein
+   Probability: 0.6900
+   UniProt IDs: Q9UBF6 - VIFPROTEIN
+
+4. PEBB - vifprotein
+   Probability: 0.6899
+   UniProt IDs: Q13951 - VIFPROTEIN
+
+5. DCA11 - ELOB
+   Probability: 0.6893
+   UniProt IDs: Q8TEB1 - Q15370
+
+6. DCA11 - ELOC
+   Probability: 0.6892
+   UniProt IDs: Q8TEB1 - Q15369
+
+7. ELOB - vifprotein
+   Probability: 0.6892
+   UniProt IDs: Q15370 - VIFPROTEIN
+
+8. DCA11 - PEBB
+   Probability: 0.6891
+   UniProt IDs: Q8TEB1 - Q13951
+
+9. ELOC - vifprotein
+   Probability: 0.6874
+   UniProt IDs: Q15369 - VIFPROTEIN
+
+10. CUL2 - ELOC
+   Probability: 0.6861
+   UniProt IDs: Q13617 - Q15369
+
+11. CUL2 - ELOB
+   Probability: 0.6860
+   UniProt IDs: Q13617 - Q15370
+
+12. CUL5 - DCA11
+   Probability: 0.6851
+   UniProt IDs: Q93034 - Q8TEB1
+
+13. NEDD8 - vifprotein
+   Probability: 0.6850
+   UniProt IDs: Q15843 - VIFPROTEIN
+
+14. CUL2 - PDC6I
+   Probability: 0.6844
+   UniProt IDs: Q13617 - Q8WUM4
+
+15. ELOB - PEBB
+   Probability: 0.6844
+   UniProt IDs: Q15370 - Q13951
+
+16. ELOC - PEBB
+   Probability: 0.6840
+   UniProt IDs: Q15369 - Q13951
+
+17. CUL5 - ELOB
+   Probability: 0.6837
+   UniProt IDs: Q93034 - Q15370
+
+18. DCA11 - RBX2
+   Probability: 0.6837
+   UniProt IDs: Q8TEB1 - Q9UBF6
+
+19. CUL5 - PEBB
+   Probability: 0.6828
+   UniProt IDs: Q93034 - Q13951
+
+20. DCA11 - NEDD8
+   Probability: 0.6827
+   UniProt IDs: Q8TEB1 - Q15843
+
+====================================================================================================
+END OF REPORT
+====================================================================================================

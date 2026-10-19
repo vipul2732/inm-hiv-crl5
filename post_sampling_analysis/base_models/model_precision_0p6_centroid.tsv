@@ -1,0 +1,4 @@
+dataset_basename	freq_cutoff_centroid	n_draws_main_cluster	n_edges	n_edges_on_in_centroid	hamming_to_centroid_mean	hamming_to_centroid_median	hamming_to_centroid_rms	mean_hamming_over_n_edges
+cullin_mock_config_multi_seeds	0.6	21105	2926	2247	748.4252072968491	749.0	748.7208398935973	0.2557844180782123
+cullin_wt_config_multi_seeds	0.6	21896	2926	2369	749.0584581658751	749.0	749.3501046741959	0.2560008401113722
+cullin_vif_config_multi_seeds	0.6	14617	2926	2282	692.7810768283506	693.0	693.0642042225667	0.2367672853138587

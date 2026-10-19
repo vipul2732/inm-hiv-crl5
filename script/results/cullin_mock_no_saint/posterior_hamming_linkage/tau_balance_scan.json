@@ -1,0 +1,3873 @@
+{
+  "sampling_precision_tau": 125.94519537173899,
+  "first_tau_failing_mixing_scan_high_to_low": 125.61112323547442,
+  "n_clusters_at_sampling_precision_tau": 58,
+  "cluster_sizes_at_sampling_precision_tau": [
+    38718,
+    95,
+    74,
+    66,
+    54,
+    53,
+    50,
+    46,
+    45,
+    42,
+    41,
+    38,
+    33,
+    31,
+    30,
+    30,
+    29,
+    29,
+    28,
+    28,
+    25,
+    24,
+    22,
+    21,
+    20,
+    20,
+    20,
+    19,
+    19,
+    17,
+    16,
+    16,
+    16,
+    16,
+    15,
+    15,
+    14,
+    13,
+    12,
+    11,
+    11,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    5,
+    5,
+    3,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "sample_ab_legend": {
+    "sample_A": "draws from first \u230aK/2\u230b MCMC chains (merged order)",
+    "sample_B": "draws from remaining chains",
+    "chain_indices_sample_A": [
+      0,
+      1
+    ],
+    "chain_indices_sample_B": [
+      2,
+      3
+    ],
+    "global_frac_sample_A": 0.5
+  },
+  "clusters_sample_ab_at_sampling_precision_tau": [
+    {
+      "cluster_id": 1,
+      "n_draws": 2,
+      "n_sample_A": 2,
+      "n_sample_B": 0,
+      "frac_sample_A": 1.0,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 2,
+      "n_draws": 1,
+      "n_sample_A": 0,
+      "n_sample_B": 1,
+      "frac_sample_A": 0.0,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 3,
+      "n_draws": 5,
+      "n_sample_A": 4,
+      "n_sample_B": 1,
+      "frac_sample_A": 0.8,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 4,
+      "n_draws": 1,
+      "n_sample_A": 1,
+      "n_sample_B": 0,
+      "frac_sample_A": 1.0,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 5,
+      "n_draws": 5,
+      "n_sample_A": 3,
+      "n_sample_B": 2,
+      "frac_sample_A": 0.6,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 6,
+      "n_draws": 5,
+      "n_sample_A": 3,
+      "n_sample_B": 2,
+      "frac_sample_A": 0.6,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 7,
+      "n_draws": 16,
+      "n_sample_A": 11,
+      "n_sample_B": 5,
+      "frac_sample_A": 0.6875,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 8,
+      "n_draws": 11,
+      "n_sample_A": 5,
+      "n_sample_B": 6,
+      "frac_sample_A": 0.45454545454545453,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 9,
+      "n_draws": 6,
+      "n_sample_A": 2,
+      "n_sample_B": 4,
+      "frac_sample_A": 0.3333333333333333,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 10,
+      "n_draws": 7,
+      "n_sample_A": 2,
+      "n_sample_B": 5,
+      "frac_sample_A": 0.2857142857142857,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 11,
+      "n_draws": 9,
+      "n_sample_A": 2,
+      "n_sample_B": 7,
+      "frac_sample_A": 0.2222222222222222,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 12,
+      "n_draws": 8,
+      "n_sample_A": 3,
+      "n_sample_B": 5,
+      "frac_sample_A": 0.375,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 13,
+      "n_draws": 16,
+      "n_sample_A": 0,
+      "n_sample_B": 16,
+      "frac_sample_A": 0.0,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 14,
+      "n_draws": 2,
+      "n_sample_A": 2,
+      "n_sample_B": 0,
+      "frac_sample_A": 1.0,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 15,
+      "n_draws": 15,
+      "n_sample_A": 13,
+      "n_sample_B": 2,
+      "frac_sample_A": 0.8666666666666667,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 16,
+      "n_draws": 3,
+      "n_sample_A": 3,
+      "n_sample_B": 0,
+      "frac_sample_A": 1.0,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 17,
+      "n_draws": 16,
+      "n_sample_A": 4,
+      "n_sample_B": 12,
+      "frac_sample_A": 0.25,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 18,
+      "n_draws": 19,
+      "n_sample_A": 13,
+      "n_sample_B": 6,
+      "frac_sample_A": 0.6842105263157895,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 19,
+      "n_draws": 10,
+      "n_sample_A": 8,
+      "n_sample_B": 2,
+      "frac_sample_A": 0.8,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 20,
+      "n_draws": 19,
+      "n_sample_A": 7,
+      "n_sample_B": 12,
+      "frac_sample_A": 0.3684210526315789,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 21,
+      "n_draws": 20,
+      "n_sample_A": 8,
+      "n_sample_B": 12,
+      "frac_sample_A": 0.4,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 22,
+      "n_draws": 46,
+      "n_sample_A": 18,
+      "n_sample_B": 28,
+      "frac_sample_A": 0.391304347826087,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 23,
+      "n_draws": 11,
+      "n_sample_A": 3,
+      "n_sample_B": 8,
+      "frac_sample_A": 0.2727272727272727,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 24,
+      "n_draws": 24,
+      "n_sample_A": 18,
+      "n_sample_B": 6,
+      "frac_sample_A": 0.75,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 25,
+      "n_draws": 15,
+      "n_sample_A": 9,
+      "n_sample_B": 6,
+      "frac_sample_A": 0.6,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 26,
+      "n_draws": 16,
+      "n_sample_A": 8,
+      "n_sample_B": 8,
+      "frac_sample_A": 0.5,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 27,
+      "n_draws": 30,
+      "n_sample_A": 10,
+      "n_sample_B": 20,
+      "frac_sample_A": 0.3333333333333333,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 28,
+      "n_draws": 14,
+      "n_sample_A": 9,
+      "n_sample_B": 5,
+      "frac_sample_A": 0.6428571428571429,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 29,
+      "n_draws": 12,
+      "n_sample_A": 10,
+      "n_sample_B": 2,
+      "frac_sample_A": 0.8333333333333334,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 30,
+      "n_draws": 13,
+      "n_sample_A": 10,
+      "n_sample_B": 3,
+      "frac_sample_A": 0.7692307692307693,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 31,
+      "n_draws": 38,
+      "n_sample_A": 22,
+      "n_sample_B": 16,
+      "frac_sample_A": 0.5789473684210527,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 32,
+      "n_draws": 20,
+      "n_sample_A": 8,
+      "n_sample_B": 12,
+      "frac_sample_A": 0.4,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 33,
+      "n_draws": 28,
+      "n_sample_A": 16,
+      "n_sample_B": 12,
+      "frac_sample_A": 0.5714285714285714,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 34,
+      "n_draws": 17,
+      "n_sample_A": 9,
+      "n_sample_B": 8,
+      "frac_sample_A": 0.5294117647058824,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 35,
+      "n_draws": 21,
+      "n_sample_A": 5,
+      "n_sample_B": 16,
+      "frac_sample_A": 0.23809523809523808,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 36,
+      "n_draws": 29,
+      "n_sample_A": 12,
+      "n_sample_B": 17,
+      "frac_sample_A": 0.41379310344827586,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 37,
+      "n_draws": 22,
+      "n_sample_A": 15,
+      "n_sample_B": 7,
+      "frac_sample_A": 0.6818181818181818,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 38,
+      "n_draws": 25,
+      "n_sample_A": 15,
+      "n_sample_B": 10,
+      "frac_sample_A": 0.6,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 39,
+      "n_draws": 20,
+      "n_sample_A": 10,
+      "n_sample_B": 10,
+      "frac_sample_A": 0.5,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 40,
+      "n_draws": 41,
+      "n_sample_A": 21,
+      "n_sample_B": 20,
+      "frac_sample_A": 0.5121951219512195,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 41,
+      "n_draws": 42,
+      "n_sample_A": 22,
+      "n_sample_B": 20,
+      "frac_sample_A": 0.5238095238095238,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 42,
+      "n_draws": 54,
+      "n_sample_A": 33,
+      "n_sample_B": 21,
+      "frac_sample_A": 0.6111111111111112,
+      "mixing_tested": true,
+      "mixing_binomial_p_value": 0.13367423536410522
+    },
+    {
+      "cluster_id": 43,
+      "n_draws": 28,
+      "n_sample_A": 16,
+      "n_sample_B": 12,
+      "frac_sample_A": 0.5714285714285714,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 44,
+      "n_draws": 50,
+      "n_sample_A": 19,
+      "n_sample_B": 31,
+      "frac_sample_A": 0.38,
+      "mixing_tested": true,
+      "mixing_binomial_p_value": 0.11892045255943628
+    },
+    {
+      "cluster_id": 45,
+      "n_draws": 45,
+      "n_sample_A": 20,
+      "n_sample_B": 25,
+      "frac_sample_A": 0.4444444444444444,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 46,
+      "n_draws": 11,
+      "n_sample_A": 5,
+      "n_sample_B": 6,
+      "frac_sample_A": 0.45454545454545453,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 47,
+      "n_draws": 66,
+      "n_sample_A": 40,
+      "n_sample_B": 26,
+      "frac_sample_A": 0.6060606060606061,
+      "mixing_tested": true,
+      "mixing_binomial_p_value": 0.10885696440971612
+    },
+    {
+      "cluster_id": 48,
+      "n_draws": 31,
+      "n_sample_A": 10,
+      "n_sample_B": 21,
+      "frac_sample_A": 0.3225806451612903,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 49,
+      "n_draws": 33,
+      "n_sample_A": 17,
+      "n_sample_B": 16,
+      "frac_sample_A": 0.5151515151515151,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 50,
+      "n_draws": 95,
+      "n_sample_A": 48,
+      "n_sample_B": 47,
+      "frac_sample_A": 0.5052631578947369,
+      "mixing_tested": true,
+      "mixing_binomial_p_value": 1.0
+    },
+    {
+      "cluster_id": 51,
+      "n_draws": 30,
+      "n_sample_A": 11,
+      "n_sample_B": 19,
+      "frac_sample_A": 0.36666666666666664,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 52,
+      "n_draws": 53,
+      "n_sample_A": 23,
+      "n_sample_B": 30,
+      "frac_sample_A": 0.4339622641509434,
+      "mixing_tested": true,
+      "mixing_binomial_p_value": 0.4101027163746913
+    },
+    {
+      "cluster_id": 53,
+      "n_draws": 29,
+      "n_sample_A": 14,
+      "n_sample_B": 15,
+      "frac_sample_A": 0.4827586206896552,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 54,
+      "n_draws": 74,
+      "n_sample_A": 30,
+      "n_sample_B": 44,
+      "frac_sample_A": 0.40540540540540543,
+      "mixing_tested": true,
+      "mixing_binomial_p_value": 0.13017768031912758
+    },
+    {
+      "cluster_id": 55,
+      "n_draws": 38718,
+      "n_sample_A": 19368,
+      "n_sample_B": 19350,
+      "frac_sample_A": 0.500232450023245,
+      "mixing_tested": true,
+      "mixing_binomial_p_value": 0.9311519586559074
+    },
+    {
+      "cluster_id": 56,
+      "n_draws": 1,
+      "n_sample_A": 0,
+      "n_sample_B": 1,
+      "frac_sample_A": 0.0,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 57,
+      "n_draws": 1,
+      "n_sample_A": 0,
+      "n_sample_B": 1,
+      "frac_sample_A": 0.0,
+      "mixing_tested": false
+    },
+    {
+      "cluster_id": 58,
+      "n_draws": 1,
+      "n_sample_A": 0,
+      "n_sample_B": 1,
+      "frac_sample_A": 0.0,
+      "mixing_tested": false
+    }
+  ],
+  "mixing_test": "Per \u03c4: for each cluster with n >= min_cluster_size, two-sided binomial H0: P(draw in sample A | cluster) = p0, p0 = global fraction in A (first \u230aK/2\u230b chains); Bonferroni alpha across clusters tested at that \u03c4.",
+  "min_cluster_size_for_mixing_test": 50,
+  "mixing_test_alpha": 0.05,
+  "n_tau_grid_points": 401,
+  "tau_scan_table": [
+    {
+      "tau": 134.2947823695593,
+      "n_clusters": 1,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 1.0,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 40000,
+          "n_sample_A": 20000,
+          "n_sample_B": 20000,
+          "frac_sample_A": 0.5,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 1.0
+        }
+      ]
+    },
+    {
+      "tau": 133.2947823695593,
+      "n_clusters": 1,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 1.0,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 40000,
+          "n_sample_A": 20000,
+          "n_sample_B": 20000,
+          "frac_sample_A": 0.5,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 1.0
+        }
+      ]
+    },
+    {
+      "tau": 132.96071023329475,
+      "n_clusters": 4,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9920210047847212,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 39997,
+          "n_sample_A": 20000,
+          "n_sample_B": 19997,
+          "frac_sample_A": 0.500037502812711,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9920210047847212
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 132.62663809703017,
+      "n_clusters": 4,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9920210047847212,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 39997,
+          "n_sample_A": 20000,
+          "n_sample_B": 19997,
+          "frac_sample_A": 0.500037502812711,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9920210047847212
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 132.29256596076561,
+      "n_clusters": 4,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9920210047847212,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 39997,
+          "n_sample_A": 20000,
+          "n_sample_B": 19997,
+          "frac_sample_A": 0.500037502812711,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9920210047847212
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 131.95849382450106,
+      "n_clusters": 4,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9920210047847212,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 39997,
+          "n_sample_A": 20000,
+          "n_sample_B": 19997,
+          "frac_sample_A": 0.500037502812711,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9920210047847212
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 131.6244216882365,
+      "n_clusters": 4,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9920210047847212,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 39997,
+          "n_sample_A": 20000,
+          "n_sample_B": 19997,
+          "frac_sample_A": 0.500037502812711,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9920210047847212
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 131.29034955197193,
+      "n_clusters": 4,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9920210047847212,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 39997,
+          "n_sample_A": 20000,
+          "n_sample_B": 19997,
+          "frac_sample_A": 0.500037502812711,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9920210047847212
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 130.95627741570738,
+      "n_clusters": 4,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9920210047847212,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 39997,
+          "n_sample_A": 20000,
+          "n_sample_B": 19997,
+          "frac_sample_A": 0.500037502812711,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9920210047847212
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 130.62220527944282,
+      "n_clusters": 5,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9960103028950368,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 39994,
+          "n_sample_A": 19998,
+          "n_sample_B": 19996,
+          "frac_sample_A": 0.5000250037505626,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9960103028950368
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 130.28813314317827,
+      "n_clusters": 6,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9960100035929272,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 6,
+          "n_sample_A": 5,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8333333333333334,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 39988,
+          "n_sample_A": 19993,
+          "n_sample_B": 19995,
+          "frac_sample_A": 0.49997499249774935,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9960100035929272
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 129.9540610069137,
+      "n_clusters": 6,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9960100035929272,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 6,
+          "n_sample_A": 5,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8333333333333334,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 39988,
+          "n_sample_A": 19993,
+          "n_sample_B": 19995,
+          "frac_sample_A": 0.49997499249774935,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9960100035929272
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 129.61998887064914,
+      "n_clusters": 6,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9960100035929272,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 6,
+          "n_sample_A": 5,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8333333333333334,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 39988,
+          "n_sample_A": 19993,
+          "n_sample_B": 19995,
+          "frac_sample_A": 0.49997499249774935,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9960100035929272
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 129.28591673438459,
+      "n_clusters": 6,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9960100035929272,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 6,
+          "n_sample_A": 5,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8333333333333334,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 39988,
+          "n_sample_A": 19993,
+          "n_sample_B": 19995,
+          "frac_sample_A": 0.49997499249774935,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9960100035929272
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 128.95184459812003,
+      "n_clusters": 7,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9920196080415241,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 6,
+          "n_sample_A": 5,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8333333333333334,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 39983,
+          "n_sample_A": 19990,
+          "n_sample_B": 19993,
+          "frac_sample_A": 0.4999624840557237,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9920196080415241
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 7,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 128.61777246185545,
+      "n_clusters": 7,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9920196080415241,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 6,
+          "n_sample_A": 5,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8333333333333334,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 39983,
+          "n_sample_A": 19990,
+          "n_sample_B": 19993,
+          "frac_sample_A": 0.4999624840557237,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9920196080415241
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 7,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 128.2837003255909,
+      "n_clusters": 8,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9920196080415241,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 5,
+          "n_sample_A": 4,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 1,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 39983,
+          "n_sample_A": 19990,
+          "n_sample_B": 19993,
+          "frac_sample_A": 0.4999624840557237,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9920196080415241
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 7,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 8,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 127.94962818932635,
+      "n_clusters": 13,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 1.0,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 5,
+          "n_sample_A": 4,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 1,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 16,
+          "n_sample_A": 11,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6875,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 7,
+          "n_draws": 11,
+          "n_sample_A": 5,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.45454545454545453,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 8,
+          "n_draws": 13,
+          "n_sample_A": 4,
+          "n_sample_B": 9,
+          "frac_sample_A": 0.3076923076923077,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 9,
+          "n_draws": 9,
+          "n_sample_A": 2,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.2222222222222222,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 10,
+          "n_draws": 39929,
+          "n_sample_A": 19965,
+          "n_sample_B": 19964,
+          "frac_sample_A": 0.5000125222269528,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 1.0
+        },
+        {
+          "cluster_id": 11,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 12,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 13,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 127.61555605306178,
+      "n_clusters": 15,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9282022827288806,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 5,
+          "n_sample_A": 4,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 1,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 16,
+          "n_sample_A": 11,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6875,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 7,
+          "n_draws": 11,
+          "n_sample_A": 5,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.45454545454545453,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 8,
+          "n_draws": 13,
+          "n_sample_A": 4,
+          "n_sample_B": 9,
+          "frac_sample_A": 0.3076923076923077,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 9,
+          "n_draws": 9,
+          "n_sample_A": 2,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.2222222222222222,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 10,
+          "n_draws": 8,
+          "n_sample_A": 3,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.375,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 11,
+          "n_draws": 16,
+          "n_sample_A": 0,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 12,
+          "n_draws": 39905,
+          "n_sample_A": 19962,
+          "n_sample_B": 19943,
+          "frac_sample_A": 0.5002380654053377,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9282022827288806
+        },
+        {
+          "cluster_id": 13,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 14,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 15,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 127.28148391679723,
+      "n_clusters": 19,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9960025994179422,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 5,
+          "n_sample_A": 4,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 1,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 16,
+          "n_sample_A": 11,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6875,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 7,
+          "n_draws": 11,
+          "n_sample_A": 5,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.45454545454545453,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 8,
+          "n_draws": 13,
+          "n_sample_A": 4,
+          "n_sample_B": 9,
+          "frac_sample_A": 0.3076923076923077,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 9,
+          "n_draws": 9,
+          "n_sample_A": 2,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.2222222222222222,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 10,
+          "n_draws": 8,
+          "n_sample_A": 3,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.375,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 11,
+          "n_draws": 16,
+          "n_sample_A": 0,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 12,
+          "n_draws": 17,
+          "n_sample_A": 15,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8823529411764706,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 13,
+          "n_draws": 19,
+          "n_sample_A": 7,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.3684210526315789,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 14,
+          "n_draws": 19,
+          "n_sample_A": 13,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.6842105263157895,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 15,
+          "n_draws": 10,
+          "n_sample_A": 8,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 16,
+          "n_draws": 39840,
+          "n_sample_A": 19919,
+          "n_sample_B": 19921,
+          "frac_sample_A": 0.4999748995983936,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9960025994179422
+        },
+        {
+          "cluster_id": 17,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 18,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 19,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 126.94741178053266,
+      "n_clusters": 26,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9359644372964472,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 5,
+          "n_sample_A": 4,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 1,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 16,
+          "n_sample_A": 11,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6875,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 7,
+          "n_draws": 11,
+          "n_sample_A": 5,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.45454545454545453,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 8,
+          "n_draws": 13,
+          "n_sample_A": 4,
+          "n_sample_B": 9,
+          "frac_sample_A": 0.3076923076923077,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 9,
+          "n_draws": 9,
+          "n_sample_A": 2,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.2222222222222222,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 10,
+          "n_draws": 8,
+          "n_sample_A": 3,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.375,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 11,
+          "n_draws": 16,
+          "n_sample_A": 0,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 12,
+          "n_draws": 17,
+          "n_sample_A": 15,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8823529411764706,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 13,
+          "n_draws": 3,
+          "n_sample_A": 3,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 14,
+          "n_draws": 16,
+          "n_sample_A": 4,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.25,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 15,
+          "n_draws": 19,
+          "n_sample_A": 13,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.6842105263157895,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 16,
+          "n_draws": 10,
+          "n_sample_A": 8,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 17,
+          "n_draws": 19,
+          "n_sample_A": 7,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.3684210526315789,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 18,
+          "n_draws": 20,
+          "n_sample_A": 8,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.4,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 19,
+          "n_draws": 46,
+          "n_sample_A": 18,
+          "n_sample_B": 28,
+          "frac_sample_A": 0.391304347826087,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 20,
+          "n_draws": 35,
+          "n_sample_A": 21,
+          "n_sample_B": 14,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 21,
+          "n_draws": 31,
+          "n_sample_A": 17,
+          "n_sample_B": 14,
+          "frac_sample_A": 0.5483870967741935,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 22,
+          "n_draws": 30,
+          "n_sample_A": 10,
+          "n_sample_B": 20,
+          "frac_sample_A": 0.3333333333333333,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 23,
+          "n_draws": 39659,
+          "n_sample_A": 19838,
+          "n_sample_B": 19821,
+          "frac_sample_A": 0.5002143271388587,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9359644372964472
+        },
+        {
+          "cluster_id": 24,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 25,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 26,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 126.61333964426811,
+      "n_clusters": 33,
+      "n_clusters_tested": 1,
+      "bonferroni_alpha": 0.05,
+      "min_p_value": 0.9719157970782139,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 5,
+          "n_sample_A": 4,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 1,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 16,
+          "n_sample_A": 11,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6875,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 7,
+          "n_draws": 11,
+          "n_sample_A": 5,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.45454545454545453,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 8,
+          "n_draws": 13,
+          "n_sample_A": 4,
+          "n_sample_B": 9,
+          "frac_sample_A": 0.3076923076923077,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 9,
+          "n_draws": 9,
+          "n_sample_A": 2,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.2222222222222222,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 10,
+          "n_draws": 8,
+          "n_sample_A": 3,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.375,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 11,
+          "n_draws": 16,
+          "n_sample_A": 0,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 12,
+          "n_draws": 2,
+          "n_sample_A": 2,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 13,
+          "n_draws": 15,
+          "n_sample_A": 13,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8666666666666667,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 14,
+          "n_draws": 3,
+          "n_sample_A": 3,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 15,
+          "n_draws": 16,
+          "n_sample_A": 4,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.25,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 16,
+          "n_draws": 19,
+          "n_sample_A": 13,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.6842105263157895,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 17,
+          "n_draws": 10,
+          "n_sample_A": 8,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 18,
+          "n_draws": 19,
+          "n_sample_A": 7,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.3684210526315789,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 19,
+          "n_draws": 20,
+          "n_sample_A": 8,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.4,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 20,
+          "n_draws": 46,
+          "n_sample_A": 18,
+          "n_sample_B": 28,
+          "frac_sample_A": 0.391304347826087,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 21,
+          "n_draws": 35,
+          "n_sample_A": 21,
+          "n_sample_B": 14,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 22,
+          "n_draws": 31,
+          "n_sample_A": 17,
+          "n_sample_B": 14,
+          "frac_sample_A": 0.5483870967741935,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 23,
+          "n_draws": 30,
+          "n_sample_A": 10,
+          "n_sample_B": 20,
+          "frac_sample_A": 0.3333333333333333,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 24,
+          "n_draws": 14,
+          "n_sample_A": 9,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6428571428571429,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 25,
+          "n_draws": 12,
+          "n_sample_A": 10,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8333333333333334,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 26,
+          "n_draws": 13,
+          "n_sample_A": 10,
+          "n_sample_B": 3,
+          "frac_sample_A": 0.7692307692307693,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 27,
+          "n_draws": 38,
+          "n_sample_A": 22,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.5789473684210527,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 28,
+          "n_draws": 20,
+          "n_sample_A": 8,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.4,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 29,
+          "n_draws": 28,
+          "n_sample_A": 16,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.5714285714285714,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 30,
+          "n_draws": 39534,
+          "n_sample_A": 19763,
+          "n_sample_B": 19771,
+          "frac_sample_A": 0.4998988212677695,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9719157970782139
+        },
+        {
+          "cluster_id": 31,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 32,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 33,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 126.27926750800354,
+      "n_clusters": 45,
+      "n_clusters_tested": 5,
+      "bonferroni_alpha": 0.01,
+      "min_p_value": 0.11892045255943628,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 3,
+          "n_sample_A": 2,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.6666666666666666,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 5,
+          "n_sample_A": 4,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 1,
+          "n_sample_A": 1,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 16,
+          "n_sample_A": 11,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6875,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 7,
+          "n_draws": 11,
+          "n_sample_A": 5,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.45454545454545453,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 8,
+          "n_draws": 13,
+          "n_sample_A": 4,
+          "n_sample_B": 9,
+          "frac_sample_A": 0.3076923076923077,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 9,
+          "n_draws": 9,
+          "n_sample_A": 2,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.2222222222222222,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 10,
+          "n_draws": 8,
+          "n_sample_A": 3,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.375,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 11,
+          "n_draws": 16,
+          "n_sample_A": 0,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 12,
+          "n_draws": 2,
+          "n_sample_A": 2,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 13,
+          "n_draws": 15,
+          "n_sample_A": 13,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8666666666666667,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 14,
+          "n_draws": 3,
+          "n_sample_A": 3,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 15,
+          "n_draws": 16,
+          "n_sample_A": 4,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.25,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 16,
+          "n_draws": 19,
+          "n_sample_A": 13,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.6842105263157895,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 17,
+          "n_draws": 10,
+          "n_sample_A": 8,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 18,
+          "n_draws": 19,
+          "n_sample_A": 7,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.3684210526315789,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 19,
+          "n_draws": 20,
+          "n_sample_A": 8,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.4,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 20,
+          "n_draws": 46,
+          "n_sample_A": 18,
+          "n_sample_B": 28,
+          "frac_sample_A": 0.391304347826087,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 21,
+          "n_draws": 11,
+          "n_sample_A": 3,
+          "n_sample_B": 8,
+          "frac_sample_A": 0.2727272727272727,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 22,
+          "n_draws": 24,
+          "n_sample_A": 18,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.75,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 23,
+          "n_draws": 31,
+          "n_sample_A": 17,
+          "n_sample_B": 14,
+          "frac_sample_A": 0.5483870967741935,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 24,
+          "n_draws": 30,
+          "n_sample_A": 10,
+          "n_sample_B": 20,
+          "frac_sample_A": 0.3333333333333333,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 25,
+          "n_draws": 14,
+          "n_sample_A": 9,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6428571428571429,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 26,
+          "n_draws": 12,
+          "n_sample_A": 10,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8333333333333334,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 27,
+          "n_draws": 13,
+          "n_sample_A": 10,
+          "n_sample_B": 3,
+          "frac_sample_A": 0.7692307692307693,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 28,
+          "n_draws": 38,
+          "n_sample_A": 22,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.5789473684210527,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 29,
+          "n_draws": 20,
+          "n_sample_A": 8,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.4,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 30,
+          "n_draws": 28,
+          "n_sample_A": 16,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.5714285714285714,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 31,
+          "n_draws": 38,
+          "n_sample_A": 14,
+          "n_sample_B": 24,
+          "frac_sample_A": 0.3684210526315789,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 32,
+          "n_draws": 29,
+          "n_sample_A": 12,
+          "n_sample_B": 17,
+          "frac_sample_A": 0.41379310344827586,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 33,
+          "n_draws": 22,
+          "n_sample_A": 15,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.6818181818181818,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 34,
+          "n_draws": 25,
+          "n_sample_A": 15,
+          "n_sample_B": 10,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 35,
+          "n_draws": 61,
+          "n_sample_A": 31,
+          "n_sample_B": 30,
+          "frac_sample_A": 0.5081967213114754,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 1.0
+        },
+        {
+          "cluster_id": 36,
+          "n_draws": 42,
+          "n_sample_A": 22,
+          "n_sample_B": 20,
+          "frac_sample_A": 0.5238095238095238,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 37,
+          "n_draws": 54,
+          "n_sample_A": 33,
+          "n_sample_B": 21,
+          "frac_sample_A": 0.6111111111111112,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.13367423536410522
+        },
+        {
+          "cluster_id": 38,
+          "n_draws": 28,
+          "n_sample_A": 16,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.5714285714285714,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 39,
+          "n_draws": 50,
+          "n_sample_A": 19,
+          "n_sample_B": 31,
+          "frac_sample_A": 0.38,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.11892045255943628
+        },
+        {
+          "cluster_id": 40,
+          "n_draws": 45,
+          "n_sample_A": 20,
+          "n_sample_B": 25,
+          "frac_sample_A": 0.4444444444444444,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 41,
+          "n_draws": 77,
+          "n_sample_A": 45,
+          "n_sample_B": 32,
+          "frac_sample_A": 0.5844155844155844,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.17106097355391153
+        },
+        {
+          "cluster_id": 42,
+          "n_draws": 39063,
+          "n_sample_A": 19521,
+          "n_sample_B": 19542,
+          "frac_sample_A": 0.49973120344059596,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9193980282830284
+        },
+        {
+          "cluster_id": 43,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 44,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 45,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 125.94519537173899,
+      "n_clusters": 58,
+      "n_clusters_tested": 7,
+      "bonferroni_alpha": 0.0071428571428571435,
+      "min_p_value": 0.10885696440971612,
+      "all_mixing_tests_pass": true,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 2,
+          "n_sample_A": 2,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 5,
+          "n_sample_A": 4,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 1,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 7,
+          "n_draws": 16,
+          "n_sample_A": 11,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6875,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 8,
+          "n_draws": 11,
+          "n_sample_A": 5,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.45454545454545453,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 9,
+          "n_draws": 6,
+          "n_sample_A": 2,
+          "n_sample_B": 4,
+          "frac_sample_A": 0.3333333333333333,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 10,
+          "n_draws": 7,
+          "n_sample_A": 2,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.2857142857142857,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 11,
+          "n_draws": 9,
+          "n_sample_A": 2,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.2222222222222222,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 12,
+          "n_draws": 8,
+          "n_sample_A": 3,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.375,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 13,
+          "n_draws": 16,
+          "n_sample_A": 0,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 14,
+          "n_draws": 2,
+          "n_sample_A": 2,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 15,
+          "n_draws": 15,
+          "n_sample_A": 13,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8666666666666667,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 16,
+          "n_draws": 3,
+          "n_sample_A": 3,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 17,
+          "n_draws": 16,
+          "n_sample_A": 4,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.25,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 18,
+          "n_draws": 19,
+          "n_sample_A": 13,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.6842105263157895,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 19,
+          "n_draws": 10,
+          "n_sample_A": 8,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 20,
+          "n_draws": 19,
+          "n_sample_A": 7,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.3684210526315789,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 21,
+          "n_draws": 20,
+          "n_sample_A": 8,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.4,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 22,
+          "n_draws": 46,
+          "n_sample_A": 18,
+          "n_sample_B": 28,
+          "frac_sample_A": 0.391304347826087,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 23,
+          "n_draws": 11,
+          "n_sample_A": 3,
+          "n_sample_B": 8,
+          "frac_sample_A": 0.2727272727272727,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 24,
+          "n_draws": 24,
+          "n_sample_A": 18,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.75,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 25,
+          "n_draws": 15,
+          "n_sample_A": 9,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 26,
+          "n_draws": 16,
+          "n_sample_A": 8,
+          "n_sample_B": 8,
+          "frac_sample_A": 0.5,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 27,
+          "n_draws": 30,
+          "n_sample_A": 10,
+          "n_sample_B": 20,
+          "frac_sample_A": 0.3333333333333333,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 28,
+          "n_draws": 14,
+          "n_sample_A": 9,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6428571428571429,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 29,
+          "n_draws": 12,
+          "n_sample_A": 10,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8333333333333334,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 30,
+          "n_draws": 13,
+          "n_sample_A": 10,
+          "n_sample_B": 3,
+          "frac_sample_A": 0.7692307692307693,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 31,
+          "n_draws": 38,
+          "n_sample_A": 22,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.5789473684210527,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 32,
+          "n_draws": 20,
+          "n_sample_A": 8,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.4,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 33,
+          "n_draws": 28,
+          "n_sample_A": 16,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.5714285714285714,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 34,
+          "n_draws": 17,
+          "n_sample_A": 9,
+          "n_sample_B": 8,
+          "frac_sample_A": 0.5294117647058824,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 35,
+          "n_draws": 21,
+          "n_sample_A": 5,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.23809523809523808,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 36,
+          "n_draws": 29,
+          "n_sample_A": 12,
+          "n_sample_B": 17,
+          "frac_sample_A": 0.41379310344827586,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 37,
+          "n_draws": 22,
+          "n_sample_A": 15,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.6818181818181818,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 38,
+          "n_draws": 25,
+          "n_sample_A": 15,
+          "n_sample_B": 10,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 39,
+          "n_draws": 20,
+          "n_sample_A": 10,
+          "n_sample_B": 10,
+          "frac_sample_A": 0.5,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 40,
+          "n_draws": 41,
+          "n_sample_A": 21,
+          "n_sample_B": 20,
+          "frac_sample_A": 0.5121951219512195,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 41,
+          "n_draws": 42,
+          "n_sample_A": 22,
+          "n_sample_B": 20,
+          "frac_sample_A": 0.5238095238095238,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 42,
+          "n_draws": 54,
+          "n_sample_A": 33,
+          "n_sample_B": 21,
+          "frac_sample_A": 0.6111111111111112,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.13367423536410522
+        },
+        {
+          "cluster_id": 43,
+          "n_draws": 28,
+          "n_sample_A": 16,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.5714285714285714,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 44,
+          "n_draws": 50,
+          "n_sample_A": 19,
+          "n_sample_B": 31,
+          "frac_sample_A": 0.38,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.11892045255943628
+        },
+        {
+          "cluster_id": 45,
+          "n_draws": 45,
+          "n_sample_A": 20,
+          "n_sample_B": 25,
+          "frac_sample_A": 0.4444444444444444,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 46,
+          "n_draws": 11,
+          "n_sample_A": 5,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.45454545454545453,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 47,
+          "n_draws": 66,
+          "n_sample_A": 40,
+          "n_sample_B": 26,
+          "frac_sample_A": 0.6060606060606061,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.10885696440971612
+        },
+        {
+          "cluster_id": 48,
+          "n_draws": 31,
+          "n_sample_A": 10,
+          "n_sample_B": 21,
+          "frac_sample_A": 0.3225806451612903,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 49,
+          "n_draws": 33,
+          "n_sample_A": 17,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.5151515151515151,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 50,
+          "n_draws": 95,
+          "n_sample_A": 48,
+          "n_sample_B": 47,
+          "frac_sample_A": 0.5052631578947369,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 1.0
+        },
+        {
+          "cluster_id": 51,
+          "n_draws": 30,
+          "n_sample_A": 11,
+          "n_sample_B": 19,
+          "frac_sample_A": 0.36666666666666664,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 52,
+          "n_draws": 53,
+          "n_sample_A": 23,
+          "n_sample_B": 30,
+          "frac_sample_A": 0.4339622641509434,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.4101027163746913
+        },
+        {
+          "cluster_id": 53,
+          "n_draws": 29,
+          "n_sample_A": 14,
+          "n_sample_B": 15,
+          "frac_sample_A": 0.4827586206896552,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 54,
+          "n_draws": 74,
+          "n_sample_A": 30,
+          "n_sample_B": 44,
+          "frac_sample_A": 0.40540540540540543,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.13017768031912758
+        },
+        {
+          "cluster_id": 55,
+          "n_draws": 38718,
+          "n_sample_A": 19368,
+          "n_sample_B": 19350,
+          "frac_sample_A": 0.500232450023245,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.9311519586559074
+        },
+        {
+          "cluster_id": 56,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 57,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 58,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    },
+    {
+      "tau": 125.61112323547442,
+      "n_clusters": 86,
+      "n_clusters_tested": 22,
+      "bonferroni_alpha": 0.002272727272727273,
+      "min_p_value": 0.0010795155066662817,
+      "all_mixing_tests_pass": false,
+      "clusters_sample_ab": [
+        {
+          "cluster_id": 1,
+          "n_draws": 2,
+          "n_sample_A": 2,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 2,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 3,
+          "n_draws": 5,
+          "n_sample_A": 4,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 4,
+          "n_draws": 1,
+          "n_sample_A": 1,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 5,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 6,
+          "n_draws": 5,
+          "n_sample_A": 3,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 7,
+          "n_draws": 3,
+          "n_sample_A": 3,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 8,
+          "n_draws": 13,
+          "n_sample_A": 8,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6153846153846154,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 9,
+          "n_draws": 11,
+          "n_sample_A": 5,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.45454545454545453,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 10,
+          "n_draws": 6,
+          "n_sample_A": 2,
+          "n_sample_B": 4,
+          "frac_sample_A": 0.3333333333333333,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 11,
+          "n_draws": 7,
+          "n_sample_A": 2,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.2857142857142857,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 12,
+          "n_draws": 9,
+          "n_sample_A": 2,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.2222222222222222,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 13,
+          "n_draws": 8,
+          "n_sample_A": 3,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.375,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 14,
+          "n_draws": 16,
+          "n_sample_A": 0,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 15,
+          "n_draws": 2,
+          "n_sample_A": 2,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 16,
+          "n_draws": 15,
+          "n_sample_A": 13,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8666666666666667,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 17,
+          "n_draws": 3,
+          "n_sample_A": 3,
+          "n_sample_B": 0,
+          "frac_sample_A": 1.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 18,
+          "n_draws": 16,
+          "n_sample_A": 4,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.25,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 19,
+          "n_draws": 19,
+          "n_sample_A": 13,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.6842105263157895,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 20,
+          "n_draws": 10,
+          "n_sample_A": 8,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 21,
+          "n_draws": 9,
+          "n_sample_A": 4,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.4444444444444444,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 22,
+          "n_draws": 10,
+          "n_sample_A": 3,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.3,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 23,
+          "n_draws": 20,
+          "n_sample_A": 8,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.4,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 24,
+          "n_draws": 46,
+          "n_sample_A": 18,
+          "n_sample_B": 28,
+          "frac_sample_A": 0.391304347826087,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 25,
+          "n_draws": 11,
+          "n_sample_A": 3,
+          "n_sample_B": 8,
+          "frac_sample_A": 0.2727272727272727,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 26,
+          "n_draws": 24,
+          "n_sample_A": 18,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.75,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 27,
+          "n_draws": 15,
+          "n_sample_A": 9,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 28,
+          "n_draws": 16,
+          "n_sample_A": 8,
+          "n_sample_B": 8,
+          "frac_sample_A": 0.5,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 29,
+          "n_draws": 30,
+          "n_sample_A": 10,
+          "n_sample_B": 20,
+          "frac_sample_A": 0.3333333333333333,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 30,
+          "n_draws": 14,
+          "n_sample_A": 9,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.6428571428571429,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 31,
+          "n_draws": 12,
+          "n_sample_A": 10,
+          "n_sample_B": 2,
+          "frac_sample_A": 0.8333333333333334,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 32,
+          "n_draws": 13,
+          "n_sample_A": 10,
+          "n_sample_B": 3,
+          "frac_sample_A": 0.7692307692307693,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 33,
+          "n_draws": 38,
+          "n_sample_A": 22,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.5789473684210527,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 34,
+          "n_draws": 20,
+          "n_sample_A": 8,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.4,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 35,
+          "n_draws": 28,
+          "n_sample_A": 16,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.5714285714285714,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 36,
+          "n_draws": 17,
+          "n_sample_A": 9,
+          "n_sample_B": 8,
+          "frac_sample_A": 0.5294117647058824,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 37,
+          "n_draws": 21,
+          "n_sample_A": 5,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.23809523809523808,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 38,
+          "n_draws": 29,
+          "n_sample_A": 12,
+          "n_sample_B": 17,
+          "frac_sample_A": 0.41379310344827586,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 39,
+          "n_draws": 22,
+          "n_sample_A": 15,
+          "n_sample_B": 7,
+          "frac_sample_A": 0.6818181818181818,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 40,
+          "n_draws": 25,
+          "n_sample_A": 15,
+          "n_sample_B": 10,
+          "frac_sample_A": 0.6,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 41,
+          "n_draws": 20,
+          "n_sample_A": 10,
+          "n_sample_B": 10,
+          "frac_sample_A": 0.5,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 42,
+          "n_draws": 41,
+          "n_sample_A": 21,
+          "n_sample_B": 20,
+          "frac_sample_A": 0.5121951219512195,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 43,
+          "n_draws": 26,
+          "n_sample_A": 16,
+          "n_sample_B": 10,
+          "frac_sample_A": 0.6153846153846154,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 44,
+          "n_draws": 16,
+          "n_sample_A": 6,
+          "n_sample_B": 10,
+          "frac_sample_A": 0.375,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 45,
+          "n_draws": 34,
+          "n_sample_A": 18,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.5294117647058824,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 46,
+          "n_draws": 20,
+          "n_sample_A": 15,
+          "n_sample_B": 5,
+          "frac_sample_A": 0.75,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 47,
+          "n_draws": 28,
+          "n_sample_A": 16,
+          "n_sample_B": 12,
+          "frac_sample_A": 0.5714285714285714,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 48,
+          "n_draws": 15,
+          "n_sample_A": 5,
+          "n_sample_B": 10,
+          "frac_sample_A": 0.3333333333333333,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 49,
+          "n_draws": 35,
+          "n_sample_A": 14,
+          "n_sample_B": 21,
+          "frac_sample_A": 0.4,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 50,
+          "n_draws": 45,
+          "n_sample_A": 20,
+          "n_sample_B": 25,
+          "frac_sample_A": 0.4444444444444444,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 51,
+          "n_draws": 11,
+          "n_sample_A": 5,
+          "n_sample_B": 6,
+          "frac_sample_A": 0.45454545454545453,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 52,
+          "n_draws": 66,
+          "n_sample_A": 40,
+          "n_sample_B": 26,
+          "frac_sample_A": 0.6060606060606061,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.10885696440971612
+        },
+        {
+          "cluster_id": 53,
+          "n_draws": 31,
+          "n_sample_A": 10,
+          "n_sample_B": 21,
+          "frac_sample_A": 0.3225806451612903,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 54,
+          "n_draws": 33,
+          "n_sample_A": 17,
+          "n_sample_B": 16,
+          "frac_sample_A": 0.5151515151515151,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 55,
+          "n_draws": 51,
+          "n_sample_A": 27,
+          "n_sample_B": 24,
+          "frac_sample_A": 0.5294117647058824,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.7797679305530743
+        },
+        {
+          "cluster_id": 56,
+          "n_draws": 44,
+          "n_sample_A": 21,
+          "n_sample_B": 23,
+          "frac_sample_A": 0.4772727272727273,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 57,
+          "n_draws": 30,
+          "n_sample_A": 11,
+          "n_sample_B": 19,
+          "frac_sample_A": 0.36666666666666664,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 58,
+          "n_draws": 53,
+          "n_sample_A": 23,
+          "n_sample_B": 30,
+          "frac_sample_A": 0.4339622641509434,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.4101027163746913
+        },
+        {
+          "cluster_id": 59,
+          "n_draws": 29,
+          "n_sample_A": 14,
+          "n_sample_B": 15,
+          "frac_sample_A": 0.4827586206896552,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 60,
+          "n_draws": 74,
+          "n_sample_A": 30,
+          "n_sample_B": 44,
+          "frac_sample_A": 0.40540540540540543,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.13017768031912758
+        },
+        {
+          "cluster_id": 61,
+          "n_draws": 52,
+          "n_sample_A": 20,
+          "n_sample_B": 32,
+          "frac_sample_A": 0.38461538461538464,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.12634707581392135
+        },
+        {
+          "cluster_id": 62,
+          "n_draws": 73,
+          "n_sample_A": 40,
+          "n_sample_B": 33,
+          "frac_sample_A": 0.547945205479452,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.48278855684402133
+        },
+        {
+          "cluster_id": 63,
+          "n_draws": 35,
+          "n_sample_A": 24,
+          "n_sample_B": 11,
+          "frac_sample_A": 0.6857142857142857,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 64,
+          "n_draws": 42,
+          "n_sample_A": 21,
+          "n_sample_B": 21,
+          "frac_sample_A": 0.5,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 65,
+          "n_draws": 59,
+          "n_sample_A": 35,
+          "n_sample_B": 24,
+          "frac_sample_A": 0.5932203389830508,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.19252645776146274
+        },
+        {
+          "cluster_id": 66,
+          "n_draws": 80,
+          "n_sample_A": 47,
+          "n_sample_B": 33,
+          "frac_sample_A": 0.5875,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.1456354544029827
+        },
+        {
+          "cluster_id": 67,
+          "n_draws": 92,
+          "n_sample_A": 46,
+          "n_sample_B": 46,
+          "frac_sample_A": 0.5,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 1.0
+        },
+        {
+          "cluster_id": 68,
+          "n_draws": 41,
+          "n_sample_A": 23,
+          "n_sample_B": 18,
+          "frac_sample_A": 0.5609756097560976,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 69,
+          "n_draws": 45,
+          "n_sample_A": 21,
+          "n_sample_B": 24,
+          "frac_sample_A": 0.4666666666666667,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 70,
+          "n_draws": 71,
+          "n_sample_A": 42,
+          "n_sample_B": 29,
+          "frac_sample_A": 0.5915492957746479,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.1539127693264563
+        },
+        {
+          "cluster_id": 71,
+          "n_draws": 75,
+          "n_sample_A": 52,
+          "n_sample_B": 23,
+          "frac_sample_A": 0.6933333333333334,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.0010795155066662817
+        },
+        {
+          "cluster_id": 72,
+          "n_draws": 64,
+          "n_sample_A": 36,
+          "n_sample_B": 28,
+          "frac_sample_A": 0.5625,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.3817327947933377
+        },
+        {
+          "cluster_id": 73,
+          "n_draws": 94,
+          "n_sample_A": 36,
+          "n_sample_B": 58,
+          "frac_sample_A": 0.3829787234042553,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.029766410087911824
+        },
+        {
+          "cluster_id": 74,
+          "n_draws": 81,
+          "n_sample_A": 41,
+          "n_sample_B": 40,
+          "frac_sample_A": 0.5061728395061729,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 1.0
+        },
+        {
+          "cluster_id": 75,
+          "n_draws": 71,
+          "n_sample_A": 30,
+          "n_sample_B": 41,
+          "frac_sample_A": 0.4225352112676056,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.23509756240834187
+        },
+        {
+          "cluster_id": 76,
+          "n_draws": 30,
+          "n_sample_A": 22,
+          "n_sample_B": 8,
+          "frac_sample_A": 0.7333333333333333,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 77,
+          "n_draws": 56,
+          "n_sample_A": 34,
+          "n_sample_B": 22,
+          "frac_sample_A": 0.6071428571428571,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.1408954235984807
+        },
+        {
+          "cluster_id": 78,
+          "n_draws": 96,
+          "n_sample_A": 40,
+          "n_sample_B": 56,
+          "frac_sample_A": 0.4166666666666667,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.1253456971884924
+        },
+        {
+          "cluster_id": 79,
+          "n_draws": 94,
+          "n_sample_A": 40,
+          "n_sample_B": 54,
+          "frac_sample_A": 0.425531914893617,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.17966501480803004
+        },
+        {
+          "cluster_id": 80,
+          "n_draws": 102,
+          "n_sample_A": 43,
+          "n_sample_B": 59,
+          "frac_sample_A": 0.4215686274509804,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.13709880575603411
+        },
+        {
+          "cluster_id": 81,
+          "n_draws": 71,
+          "n_sample_A": 39,
+          "n_sample_B": 32,
+          "frac_sample_A": 0.5492957746478874,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.47668779343427553
+        },
+        {
+          "cluster_id": 82,
+          "n_draws": 96,
+          "n_sample_A": 53,
+          "n_sample_B": 43,
+          "frac_sample_A": 0.5520833333333334,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.3583976321916263
+        },
+        {
+          "cluster_id": 83,
+          "n_draws": 37198,
+          "n_sample_A": 18583,
+          "n_sample_B": 18615,
+          "frac_sample_A": 0.4995698693478144,
+          "mixing_tested": true,
+          "mixing_binomial_p_value": 0.8723048922041376
+        },
+        {
+          "cluster_id": 84,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 85,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        },
+        {
+          "cluster_id": 86,
+          "n_draws": 1,
+          "n_sample_A": 0,
+          "n_sample_B": 1,
+          "frac_sample_A": 0.0,
+          "mixing_tested": false
+        }
+      ]
+    }
+  ],
+  "criterion": "scipy.cluster.hierarchy.fcluster(Z, tau, criterion='distance')",
+  "scan_order": "tau decreasing (coarse to fine); stop at first \u03c4 with a mixing-test failure"
+}

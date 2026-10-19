@@ -1,0 +1,17 @@
+{
+  "dataset_basename": "cullin_mock_no_corr",
+  "merged_chains_pkl": "results/cullin_mock_no_corr/merged/merged_chains.pkl",
+  "centroid_npy": "main_cluster_binary_freq_ge_0p9.npy",
+  "centroid_rule": "C_ij = 1 iff mean_j M_ij over main-cluster draws >= 0.9 (from extract_main_cluster_network)",
+  "per_draw_rule": "M_ij(t) = 1 iff z_ij(t) > 0.5",
+  "n_draws_total": 40000,
+  "n_draws_main_cluster": 34854,
+  "n_edges": 2926,
+  "n_edges_on_in_centroid": 0,
+  "hamming_to_centroid_mean": 1858.0842657944568,
+  "hamming_to_centroid_std": 25.59945049388098,
+  "hamming_to_centroid_median": 1858.0,
+  "hamming_to_centroid_rms": 1858.2605984781346,
+  "mean_hamming_over_n_edges": 0.6350253813378185,
+  "interpretation": "Lower mean Hamming = draws in main cluster are closer to the 0.9 consensus network (network analogue of tight RMSD to centroid)."
+}

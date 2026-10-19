@@ -1,0 +1,13 @@
+{
+  "representative_cluster": "largest cluster by draw count (label from --labels)",
+  "centroid_binary_rule": "edge=1 iff mean_freq>=0.6; Wilson LB in TSV/npy only (not used for C)",
+  "freq_cutoff": 0.6,
+  "min_wilson_lb_for_binary": null,
+  "wilson_alpha_two_sided": 0.05,
+  "n_edges": 2926,
+  "n_draws_in_largest_cluster": 38889,
+  "mean_hamming_draw_to_centroid": 729.027385636041,
+  "median_hamming_draw_to_centroid": 729.0,
+  "rms_hamming_draw_to_centroid": 729.3728751257265,
+  "mean_hamming_divided_by_n_edges": 0.24915495066166815
+}

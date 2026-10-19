@@ -1,0 +1,497 @@
+================================================================================
+VALIDATION STATISTICS - PU Analysis (Ablations)
+KnownPositive = In_Any_Database (BioGRID, CORUM, or PDB) from base comparison TSVs
+================================================================================
+
+
+================================================================================
+DATASET: WT_no_corr
+================================================================================
+
+OVERALL STATISTICS:
+  Total pairs: 2,926
+  Known positives: 412 (14.08%)
+  Mean probability: 0.6599
+  Median probability: 0.6737
+  Std probability: 0.0448
+
+VALIDATION RATE BY TOP N% QUANTILES:
+  Top   5% (  146 pairs):   54/  146 = 36.99%
+  Top  10% (  292 pairs):   94/  292 = 32.19%
+  Top  20% (  585 pairs):  186/  585 = 31.79%
+  Top  30% (  877 pairs):  230/  877 = 26.23%
+  Top  50% (1,463 pairs):  284/1,463 = 19.41%
+  Top 100% (2,926 pairs):  412/2,926 = 14.08%
+
+ENRICHMENT RATIOS (Top N% vs Bottom N%):
+   5% quantile: 1082.22x (top: 36.99%, bottom: 0.00%)
+  10% quantile: 18.80x (top: 32.19%, bottom: 1.71%)
+  20% quantile: 3.80x (top: 31.79%, bottom: 8.38%)
+  30% quantile: 3.19x (top: 26.23%, bottom: 8.21%)
+  50% quantile: 2.22x (top: 19.41%, bottom: 8.75%)
+
+PRECISION@K (Lower bound in PU setting):
+  K=  10:   5/  10 = 50.00%
+  K=  25:  15/  25 = 60.00%
+  K=  50:  23/  50 = 46.00%
+  K= 100:  42/ 100 = 42.00%
+  K= 200:  73/ 200 = 36.50%
+  K= 300:  97/ 300 = 32.33%
+  K= 500: 153/ 500 = 30.60%
+  K=1000: 248/1000 = 24.80%
+
+CUMULATIVE RECOVERY AT KEY RANKS:
+  Rank   10:   5/412 known positives ( 1.21% of total)
+  Rank   25:  15/412 known positives ( 3.64% of total)
+  Rank   50:  23/412 known positives ( 5.58% of total)
+  Rank  100:  42/412 known positives (10.19% of total)
+  Rank  200:  73/412 known positives (17.72% of total)
+  Rank  300:  97/412 known positives (23.54% of total)
+  Rank  500: 153/412 known positives (37.14% of total)
+  Rank 1000: 248/412 known positives (60.19% of total)
+  Rank 2000: 336/412 known positives (81.55% of total)
+
+PROBABILITY DISTRIBUTION:
+  [0.5-0.6]:   324 pairs,  2.47% validated
+  [0.6-0.7]: 2,602 pairs, 15.53% validated
+
+
+================================================================================
+DATASET: WT_no_saint
+================================================================================
+
+OVERALL STATISTICS:
+  Total pairs: 2,926
+  Known positives: 412 (14.08%)
+  Mean probability: 0.6730
+  Median probability: 0.7006
+  Std probability: 0.0657
+
+VALIDATION RATE BY TOP N% QUANTILES:
+  Top   5% (  146 pairs):   35/  146 = 23.97%
+  Top  10% (  292 pairs):   71/  292 = 24.32%
+  Top  20% (  585 pairs):  108/  585 = 18.46%
+  Top  30% (  877 pairs):  140/  877 = 15.96%
+  Top  50% (1,463 pairs):  284/1,463 = 19.41%
+  Top 100% (2,926 pairs):  412/2,926 = 14.08%
+
+ENRICHMENT RATIOS (Top N% vs Bottom N%):
+   5% quantile: 8.75x (top: 23.97%, bottom: 2.74%)
+  10% quantile: 8.88x (top: 24.32%, bottom: 2.74%)
+  20% quantile: 2.57x (top: 18.46%, bottom: 7.18%)
+  30% quantile: 2.55x (top: 15.96%, bottom: 6.27%)
+  50% quantile: 2.22x (top: 19.41%, bottom: 8.75%)
+
+PRECISION@K (Lower bound in PU setting):
+  K=  10:   4/  10 = 40.00%
+  K=  25:   8/  25 = 32.00%
+  K=  50:  12/  50 = 24.00%
+  K= 100:  25/ 100 = 25.00%
+  K= 200:  54/ 200 = 27.00%
+  K= 300:  72/ 300 = 24.00%
+  K= 500:  99/ 500 = 19.80%
+  K=1000: 158/1000 = 15.80%
+
+CUMULATIVE RECOVERY AT KEY RANKS:
+  Rank   10:   4/412 known positives ( 0.97% of total)
+  Rank   25:   8/412 known positives ( 1.94% of total)
+  Rank   50:  12/412 known positives ( 2.91% of total)
+  Rank  100:  25/412 known positives ( 6.07% of total)
+  Rank  200:  54/412 known positives (13.11% of total)
+  Rank  300:  72/412 known positives (17.48% of total)
+  Rank  500:  99/412 known positives (24.03% of total)
+  Rank 1000: 158/412 known positives (38.35% of total)
+  Rank 2000: 349/412 known positives (84.71% of total)
+
+PROBABILITY DISTRIBUTION:
+  [0.4-0.5]:    94 pairs,  2.13% validated
+  [0.5-0.6]:   279 pairs,  4.66% validated
+  [0.6-0.7]: 1,056 pairs,  9.94% validated
+  [0.7-0.8]: 1,497 pairs, 19.51% validated
+
+
+================================================================================
+DATASET: WT_no_priors
+================================================================================
+
+OVERALL STATISTICS:
+  Total pairs: 2,926
+  Known positives: 412 (14.08%)
+  Mean probability: 0.6516
+  Median probability: 0.6752
+  Std probability: 0.0554
+
+VALIDATION RATE BY TOP N% QUANTILES:
+  Top   5% (  146 pairs):   28/  146 = 19.18%
+  Top  10% (  292 pairs):   86/  292 = 29.45%
+  Top  20% (  585 pairs):  160/  585 = 27.35%
+  Top  30% (  877 pairs):  188/  877 = 21.44%
+  Top  50% (1,463 pairs):  290/1,463 = 19.82%
+  Top 100% (2,926 pairs):  412/2,926 = 14.08%
+
+ENRICHMENT RATIOS (Top N% vs Bottom N%):
+   5% quantile: 7.00x (top: 19.18%, bottom: 2.74%)
+  10% quantile: 10.75x (top: 29.45%, bottom: 2.74%)
+  20% quantile: 3.81x (top: 27.35%, bottom: 7.18%)
+  30% quantile: 3.36x (top: 21.44%, bottom: 6.39%)
+  50% quantile: 2.38x (top: 19.82%, bottom: 8.34%)
+
+PRECISION@K (Lower bound in PU setting):
+  K=  10:   4/  10 = 40.00%
+  K=  25:   6/  25 = 24.00%
+  K=  50:  13/  50 = 26.00%
+  K= 100:  19/ 100 = 19.00%
+  K= 200:  50/ 200 = 25.00%
+  K= 300:  90/ 300 = 30.00%
+  K= 500: 154/ 500 = 30.80%
+  K=1000: 195/1000 = 19.50%
+
+CUMULATIVE RECOVERY AT KEY RANKS:
+  Rank   10:   4/412 known positives ( 0.97% of total)
+  Rank   25:   6/412 known positives ( 1.46% of total)
+  Rank   50:  13/412 known positives ( 3.16% of total)
+  Rank  100:  19/412 known positives ( 4.61% of total)
+  Rank  200:  50/412 known positives (12.14% of total)
+  Rank  300:  90/412 known positives (21.84% of total)
+  Rank  500: 154/412 known positives (37.38% of total)
+  Rank 1000: 195/412 known positives (47.33% of total)
+  Rank 2000: 350/412 known positives (84.95% of total)
+
+PROBABILITY DISTRIBUTION:
+  [0.4-0.5]:    46 pairs,  0.00% validated
+  [0.5-0.6]:   328 pairs,  4.57% validated
+  [0.6-0.7]: 2,552 pairs, 15.56% validated
+
+
+================================================================================
+DATASET: MOCK_no_corr
+================================================================================
+
+OVERALL STATISTICS:
+  Total pairs: 2,926
+  Known positives: 411 (14.05%)
+  Mean probability: 0.6550
+  Median probability: 0.6735
+  Std probability: 0.0537
+
+VALIDATION RATE BY TOP N% QUANTILES:
+  Top   5% (  146 pairs):   89/  146 = 60.96%
+  Top  10% (  292 pairs):  141/  292 = 48.29%
+  Top  20% (  585 pairs):  206/  585 = 35.21%
+  Top  30% (  877 pairs):  223/  877 = 25.43%
+  Top  50% (1,463 pairs):  279/1,463 = 19.07%
+  Top 100% (2,926 pairs):  411/2,926 = 14.05%
+
+ENRICHMENT RATIOS (Top N% vs Bottom N%):
+   5% quantile: 14.83x (top: 60.96%, bottom: 4.11%)
+  10% quantile: 11.75x (top: 48.29%, bottom: 4.11%)
+  20% quantile: 4.79x (top: 35.21%, bottom: 7.35%)
+  30% quantile: 3.01x (top: 25.43%, bottom: 8.44%)
+  50% quantile: 2.11x (top: 19.07%, bottom: 9.02%)
+
+PRECISION@K (Lower bound in PU setting):
+  K=  10:   7/  10 = 70.00%
+  K=  25:  22/  25 = 88.00%
+  K=  50:  45/  50 = 90.00%
+  K= 100:  66/ 100 = 66.00%
+  K= 200: 113/ 200 = 56.50%
+  K= 300: 143/ 300 = 47.67%
+  K= 500: 194/ 500 = 38.80%
+  K=1000: 233/1000 = 23.30%
+
+CUMULATIVE RECOVERY AT KEY RANKS:
+  Rank   10:   7/411 known positives ( 1.70% of total)
+  Rank   25:  22/411 known positives ( 5.35% of total)
+  Rank   50:  45/411 known positives (10.95% of total)
+  Rank  100:  66/411 known positives (16.06% of total)
+  Rank  200: 113/411 known positives (27.49% of total)
+  Rank  300: 143/411 known positives (34.79% of total)
+  Rank  500: 194/411 known positives (47.20% of total)
+  Rank 1000: 233/411 known positives (56.69% of total)
+  Rank 2000: 333/411 known positives (81.02% of total)
+
+PROBABILITY DISTRIBUTION:
+  [0.5-0.6]:   366 pairs,  4.10% validated
+  [0.6-0.7]: 2,560 pairs, 15.47% validated
+
+
+================================================================================
+DATASET: MOCK_no_saint
+================================================================================
+
+OVERALL STATISTICS:
+  Total pairs: 2,926
+  Known positives: 411 (14.05%)
+  Mean probability: 0.6645
+  Median probability: 0.6903
+  Std probability: 0.0688
+
+VALIDATION RATE BY TOP N% QUANTILES:
+  Top   5% (  146 pairs):   71/  146 = 48.63%
+  Top  10% (  292 pairs):   94/  292 = 32.19%
+  Top  20% (  585 pairs):  124/  585 = 21.20%
+  Top  30% (  877 pairs):  160/  877 = 18.24%
+  Top  50% (1,463 pairs):  261/1,463 = 17.84%
+  Top 100% (2,926 pairs):  411/2,926 = 14.05%
+
+ENRICHMENT RATIOS (Top N% vs Bottom N%):
+   5% quantile: 11.83x (top: 48.63%, bottom: 4.11%)
+  10% quantile: 9.40x (top: 32.19%, bottom: 3.42%)
+  20% quantile: 3.76x (top: 21.20%, bottom: 5.64%)
+  30% quantile: 2.22x (top: 18.24%, bottom: 8.21%)
+  50% quantile: 1.74x (top: 17.84%, bottom: 10.25%)
+
+PRECISION@K (Lower bound in PU setting):
+  K=  10:  10/  10 = 100.00%
+  K=  25:  22/  25 = 88.00%
+  K=  50:  32/  50 = 64.00%
+  K= 100:  48/ 100 = 48.00%
+  K= 200:  81/ 200 = 40.50%
+  K= 300:  95/ 300 = 31.67%
+  K= 500: 119/ 500 = 23.80%
+  K=1000: 198/1000 = 19.80%
+
+CUMULATIVE RECOVERY AT KEY RANKS:
+  Rank   10:  10/411 known positives ( 2.43% of total)
+  Rank   25:  22/411 known positives ( 5.35% of total)
+  Rank   50:  32/411 known positives ( 7.79% of total)
+  Rank  100:  48/411 known positives (11.68% of total)
+  Rank  200:  81/411 known positives (19.71% of total)
+  Rank  300:  95/411 known positives (23.11% of total)
+  Rank  500: 119/411 known positives (28.95% of total)
+  Rank 1000: 198/411 known positives (48.18% of total)
+  Rank 2000: 333/411 known positives (81.02% of total)
+
+PROBABILITY DISTRIBUTION:
+  [0.4-0.5]:   136 pairs,  4.41% validated
+  [0.5-0.6]:   305 pairs,  4.26% validated
+  [0.6-0.7]: 1,324 pairs, 12.61% validated
+  [0.7-0.8]: 1,161 pairs, 19.38% validated
+
+
+================================================================================
+DATASET: MOCK_no_priors
+================================================================================
+
+OVERALL STATISTICS:
+  Total pairs: 2,926
+  Known positives: 411 (14.05%)
+  Mean probability: 0.6453
+  Median probability: 0.6697
+  Std probability: 0.0585
+
+VALIDATION RATE BY TOP N% QUANTILES:
+  Top   5% (  146 pairs):   80/  146 = 54.79%
+  Top  10% (  292 pairs):  137/  292 = 46.92%
+  Top  20% (  585 pairs):  173/  585 = 29.57%
+  Top  30% (  877 pairs):  186/  877 = 21.21%
+  Top  50% (1,463 pairs):  270/1,463 = 18.46%
+  Top 100% (2,926 pairs):  411/2,926 = 14.05%
+
+ENRICHMENT RATIOS (Top N% vs Bottom N%):
+   5% quantile: 16.00x (top: 54.79%, bottom: 3.42%)
+  10% quantile: 13.70x (top: 46.92%, bottom: 3.42%)
+  20% quantile: 5.24x (top: 29.57%, bottom: 5.64%)
+  30% quantile: 2.70x (top: 21.21%, bottom: 7.87%)
+  50% quantile: 1.91x (top: 18.46%, bottom: 9.64%)
+
+PRECISION@K (Lower bound in PU setting):
+  K=  10:   9/  10 = 90.00%
+  K=  25:  22/  25 = 88.00%
+  K=  50:  41/  50 = 82.00%
+  K= 100:  51/ 100 = 51.00%
+  K= 200: 106/ 200 = 53.00%
+  K= 300: 137/ 300 = 45.67%
+  K= 500: 167/ 500 = 33.40%
+  K=1000: 210/1000 = 21.00%
+
+CUMULATIVE RECOVERY AT KEY RANKS:
+  Rank   10:   9/411 known positives ( 2.19% of total)
+  Rank   25:  22/411 known positives ( 5.35% of total)
+  Rank   50:  41/411 known positives ( 9.98% of total)
+  Rank  100:  51/411 known positives (12.41% of total)
+  Rank  200: 106/411 known positives (25.79% of total)
+  Rank  300: 137/411 known positives (33.33% of total)
+  Rank  500: 167/411 known positives (40.63% of total)
+  Rank 1000: 210/411 known positives (51.09% of total)
+  Rank 2000: 336/411 known positives (81.75% of total)
+
+PROBABILITY DISTRIBUTION:
+  [0.4-0.5]:    38 pairs,  5.26% validated
+  [0.5-0.6]:   409 pairs,  4.16% validated
+  [0.6-0.7]: 2,479 pairs, 15.81% validated
+
+
+================================================================================
+DATASET: VIF_no_corr
+================================================================================
+
+OVERALL STATISTICS:
+  Total pairs: 2,926
+  Known positives: 366 (12.51%)
+  Mean probability: 0.6493
+  Median probability: 0.6735
+  Std probability: 0.0600
+
+VALIDATION RATE BY TOP N% QUANTILES:
+  Top   5% (  146 pairs):   49/  146 = 33.56%
+  Top  10% (  292 pairs):   88/  292 = 30.14%
+  Top  20% (  585 pairs):  179/  585 = 30.60%
+  Top  30% (  877 pairs):  209/  877 = 23.83%
+  Top  50% (1,463 pairs):  266/1,463 = 18.18%
+  Top 100% (2,926 pairs):  366/2,926 = 12.51%
+
+ENRICHMENT RATIOS (Top N% vs Bottom N%):
+   5% quantile: 16.33x (top: 33.56%, bottom: 2.05%)
+  10% quantile: 9.78x (top: 30.14%, bottom: 3.08%)
+  20% quantile: 6.88x (top: 30.60%, bottom: 4.44%)
+  30% quantile: 4.02x (top: 23.83%, bottom: 5.93%)
+  50% quantile: 2.66x (top: 18.18%, bottom: 6.84%)
+
+PRECISION@K (Lower bound in PU setting):
+  K=  10:   4/  10 = 40.00%
+  K=  25:   9/  25 = 36.00%
+  K=  50:  19/  50 = 38.00%
+  K= 100:  36/ 100 = 36.00%
+  K= 200:  59/ 200 = 29.50%
+  K= 300:  92/ 300 = 30.67%
+  K= 500: 149/ 500 = 29.80%
+  K=1000: 222/1000 = 22.20%
+
+CUMULATIVE RECOVERY AT KEY RANKS:
+  Rank   10:   4/366 known positives ( 1.09% of total)
+  Rank   25:   9/366 known positives ( 2.46% of total)
+  Rank   50:  19/366 known positives ( 5.19% of total)
+  Rank  100:  36/366 known positives ( 9.84% of total)
+  Rank  200:  59/366 known positives (16.12% of total)
+  Rank  300:  92/366 known positives (25.14% of total)
+  Rank  500: 149/366 known positives (40.71% of total)
+  Rank 1000: 222/366 known positives (60.66% of total)
+  Rank 2000: 309/366 known positives (84.43% of total)
+
+PROBABILITY DISTRIBUTION:
+  [0.5-0.6]:   488 pairs,  2.66% validated
+  [0.6-0.7]: 2,438 pairs, 14.48% validated
+
+
+================================================================================
+DATASET: VIF_no_saint
+================================================================================
+
+OVERALL STATISTICS:
+  Total pairs: 2,926
+  Known positives: 366 (12.51%)
+  Mean probability: 0.6680
+  Median probability: 0.7039
+  Std probability: 0.0734
+
+VALIDATION RATE BY TOP N% QUANTILES:
+  Top   5% (  146 pairs):   64/  146 = 43.84%
+  Top  10% (  292 pairs):   98/  292 = 33.56%
+  Top  20% (  585 pairs):  146/  585 = 24.96%
+  Top  30% (  877 pairs):  167/  877 = 19.04%
+  Top  50% (1,463 pairs):  269/1,463 = 18.39%
+  Top 100% (2,926 pairs):  366/2,926 = 12.51%
+
+ENRICHMENT RATIOS (Top N% vs Bottom N%):
+   5% quantile: 21.33x (top: 43.84%, bottom: 2.05%)
+  10% quantile: 8.91x (top: 33.56%, bottom: 3.77%)
+  20% quantile: 6.95x (top: 24.96%, bottom: 3.59%)
+  30% quantile: 4.17x (top: 19.04%, bottom: 4.56%)
+  50% quantile: 2.77x (top: 18.39%, bottom: 6.63%)
+
+PRECISION@K (Lower bound in PU setting):
+  K=  10:   5/  10 = 50.00%
+  K=  25:  15/  25 = 60.00%
+  K=  50:  26/  50 = 52.00%
+  K= 100:  49/ 100 = 49.00%
+  K= 200:  73/ 200 = 36.50%
+  K= 300: 101/ 300 = 33.67%
+  K= 500: 133/ 500 = 26.60%
+  K=1000: 173/1000 = 17.30%
+
+CUMULATIVE RECOVERY AT KEY RANKS:
+  Rank   10:   5/366 known positives ( 1.37% of total)
+  Rank   25:  15/366 known positives ( 4.10% of total)
+  Rank   50:  26/366 known positives ( 7.10% of total)
+  Rank  100:  49/366 known positives (13.39% of total)
+  Rank  200:  73/366 known positives (19.95% of total)
+  Rank  300: 101/366 known positives (27.60% of total)
+  Rank  500: 133/366 known positives (36.34% of total)
+  Rank 1000: 173/366 known positives (47.27% of total)
+  Rank 2000: 324/366 known positives (88.52% of total)
+
+PROBABILITY DISTRIBUTION:
+  [0.4-0.5]:   104 pairs,  2.88% validated
+  [0.5-0.6]:   401 pairs,  2.49% validated
+  [0.6-0.7]:   787 pairs,  7.12% validated
+  [0.7-0.8]: 1,634 pairs, 18.18% validated
+
+
+================================================================================
+DATASET: VIF_no_priors
+================================================================================
+
+OVERALL STATISTICS:
+  Total pairs: 2,926
+  Known positives: 366 (12.51%)
+  Mean probability: 0.6465
+  Median probability: 0.6766
+  Std probability: 0.0620
+
+VALIDATION RATE BY TOP N% QUANTILES:
+  Top   5% (  146 pairs):   54/  146 = 36.99%
+  Top  10% (  292 pairs):   97/  292 = 33.22%
+  Top  20% (  585 pairs):  166/  585 = 28.38%
+  Top  30% (  877 pairs):  186/  877 = 21.21%
+  Top  50% (1,463 pairs):  275/1,463 = 18.80%
+  Top 100% (2,926 pairs):  366/2,926 = 12.51%
+
+ENRICHMENT RATIOS (Top N% vs Bottom N%):
+   5% quantile: 18.00x (top: 36.99%, bottom: 2.05%)
+  10% quantile: 8.82x (top: 33.22%, bottom: 3.77%)
+  20% quantile: 7.90x (top: 28.38%, bottom: 3.59%)
+  30% quantile: 5.03x (top: 21.21%, bottom: 4.22%)
+  50% quantile: 3.02x (top: 18.80%, bottom: 6.22%)
+
+PRECISION@K (Lower bound in PU setting):
+  K=  10:   5/  10 = 50.00%
+  K=  25:   9/  25 = 36.00%
+  K=  50:  22/  50 = 44.00%
+  K= 100:  42/ 100 = 42.00%
+  K= 200:  68/ 200 = 34.00%
+  K= 300:  99/ 300 = 33.00%
+  K= 500: 151/ 500 = 30.20%
+  K=1000: 195/1000 = 19.50%
+
+CUMULATIVE RECOVERY AT KEY RANKS:
+  Rank   10:   5/366 known positives ( 1.37% of total)
+  Rank   25:   9/366 known positives ( 2.46% of total)
+  Rank   50:  22/366 known positives ( 6.01% of total)
+  Rank  100:  42/366 known positives (11.48% of total)
+  Rank  200:  68/366 known positives (18.58% of total)
+  Rank  300:  99/366 known positives (27.05% of total)
+  Rank  500: 151/366 known positives (41.26% of total)
+  Rank 1000: 195/366 known positives (53.28% of total)
+  Rank 2000: 326/366 known positives (89.07% of total)
+
+PROBABILITY DISTRIBUTION:
+  [0.4-0.5]:    30 pairs,  3.33% validated
+  [0.5-0.6]:   476 pairs,  2.52% validated
+  [0.6-0.7]: 2,420 pairs, 14.59% validated
+
+
+================================================================================
+CROSS-DATASET COMPARISON
+================================================================================
+
+       Dataset  Total_Pairs  Known_Positives  Overall_Rate_%  Top10%_Rate_%  Top50%_Rate_%  Enrichment_5%  Precision@100
+    WT_no_corr         2926              412       14.080656      32.191781      19.412167    1082.219178           42.0
+   WT_no_saint         2926              412       14.080656      24.315068      19.412167       8.750000           25.0
+  WT_no_priors         2926              412       14.080656      29.452055      19.822283       7.000000           19.0
+  MOCK_no_corr         2926              411       14.046480      48.287671      19.070403      14.833333           66.0
+ MOCK_no_saint         2926              411       14.046480      32.191781      17.840055      11.833333           48.0
+MOCK_no_priors         2926              411       14.046480      46.917808      18.455229      16.000000           51.0
+   VIF_no_corr         2926              366       12.508544      30.136986      18.181818      16.333333           36.0
+  VIF_no_saint         2926              366       12.508544      33.561644      18.386876      21.333333           49.0
+ VIF_no_priors         2926              366       12.508544      33.219178      18.796992      18.000000           42.0

@@ -1,0 +1,18 @@
+{
+  "dataset_basename": "cullin_vif_no_saint",
+  "merged_chains_pkl": "results/cullin_vif_no_saint/merged/merged_chains.pkl",
+  "centroid_npy": "main_cluster_binary_freq_ge_0p6.npy",
+  "freq_cutoff_centroid": 0.6,
+  "centroid_rule": "C_ij = 1 iff mean_j M_ij over main-cluster draws >= 0.6 (from extract_main_cluster_network)",
+  "per_draw_rule": "M_ij(t) = 1 iff z_ij(t) > 0.5",
+  "n_draws_total": 40000,
+  "n_draws_main_cluster": 38623,
+  "n_edges": 2926,
+  "n_edges_on_in_centroid": 2316,
+  "hamming_to_centroid_mean": 512.6839447997307,
+  "hamming_to_centroid_std": 19.82766419075665,
+  "hamming_to_centroid_median": 513.0,
+  "hamming_to_centroid_rms": 513.0672015865588,
+  "mean_hamming_over_n_edges": 0.1752166591933461,
+  "interpretation": "Lower mean Hamming = draws in main cluster are closer to the 0.6 consensus network (network analogue of tight RMSD to centroid)."
+}

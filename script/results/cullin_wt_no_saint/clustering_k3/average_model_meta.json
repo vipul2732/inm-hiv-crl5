@@ -1,0 +1,13 @@
+{
+  "ensemble_dir": "results/cullin_wt_no_saint/binary_ensemble_from_merged",
+  "out_dir": "results/cullin_wt_no_saint/clustering_k3",
+  "cluster_id": 1,
+  "n_draws_used": 8,
+  "n_draws_total": 40000,
+  "m_edges": 2926,
+  "mean_edges_npy": "mean_edges_cluster_1.npy",
+  "draw_indices_npy": "cluster_1_draw_indices.npy",
+  "rule": "mean_edges[j] = fraction of cluster draws with edge j == 1",
+  "binary_threshold": 0.5,
+  "binary_npy": "mean_edges_cluster_1_binary_t0.5.npy"
+}

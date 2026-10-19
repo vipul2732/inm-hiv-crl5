@@ -1,0 +1,11 @@
+{
+  "config_file": "../input/cullin/cullin_wt/cullin_wt_config.json",
+  "seeds": [
+    13,
+    42,
+    71,
+    100
+  ],
+  "output_base": "../results/cullin_wt_config_multi_seeds",
+  "n_runs": 4
+}

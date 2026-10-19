@@ -1,0 +1,106 @@
+{
+  "total_pairs": 2926,
+  "total_validated": 68,
+  "baseline_rate": 0.02323991797676008,
+  "enrichment_at_percentages": [
+    {
+      "top_percent": 1,
+      "n_pairs": 29,
+      "validated_in_top": 11,
+      "expected_random": 0.6739576213260423,
+      "enrichment_factor": 16.321501014198784,
+      "recall_percent": 16.176470588235293,
+      "precision_percent": 37.93103448275862
+    },
+    {
+      "top_percent": 5,
+      "n_pairs": 146,
+      "validated_in_top": 23,
+      "expected_random": 3.3930280246069717,
+      "enrichment_factor": 6.778605962933119,
+      "recall_percent": 33.82352941176471,
+      "precision_percent": 15.753424657534246
+    },
+    {
+      "top_percent": 10,
+      "n_pairs": 292,
+      "validated_in_top": 37,
+      "expected_random": 6.7860560492139435,
+      "enrichment_factor": 5.452356970185335,
+      "recall_percent": 54.41176470588235,
+      "precision_percent": 12.67123287671233
+    },
+    {
+      "top_percent": 15,
+      "n_pairs": 438,
+      "validated_in_top": 41,
+      "expected_random": 10.179084073820915,
+      "enrichment_factor": 4.027867311308085,
+      "recall_percent": 60.29411764705882,
+      "precision_percent": 9.360730593607306
+    },
+    {
+      "top_percent": 20,
+      "n_pairs": 585,
+      "validated_in_top": 44,
+      "expected_random": 13.595352016404648,
+      "enrichment_factor": 3.2364002011060835,
+      "recall_percent": 64.70588235294117,
+      "precision_percent": 7.521367521367521
+    },
+    {
+      "top_percent": 25,
+      "n_pairs": 731,
+      "validated_in_top": 46,
+      "expected_random": 16.98838004101162,
+      "enrichment_factor": 2.7077331616641183,
+      "recall_percent": 67.64705882352942,
+      "precision_percent": 6.292749658002736
+    },
+    {
+      "top_percent": 30,
+      "n_pairs": 877,
+      "validated_in_top": 46,
+      "expected_random": 20.38140806561859,
+      "enrichment_factor": 2.2569588838956336,
+      "recall_percent": 67.64705882352942,
+      "precision_percent": 5.245153933865451
+    },
+    {
+      "top_percent": 40,
+      "n_pairs": 1170,
+      "validated_in_top": 51,
+      "expected_random": 27.190704032809297,
+      "enrichment_factor": 1.8756410256410256,
+      "recall_percent": 75.0,
+      "precision_percent": 4.358974358974359
+    },
+    {
+      "top_percent": 50,
+      "n_pairs": 1463,
+      "validated_in_top": 56,
+      "expected_random": 34.0,
+      "enrichment_factor": 1.6470588235294117,
+      "recall_percent": 82.35294117647058,
+      "precision_percent": 3.827751196172249
+    },
+    {
+      "top_percent": 75,
+      "n_pairs": 2194,
+      "validated_in_top": 63,
+      "expected_random": 50.98838004101162,
+      "enrichment_factor": 1.2355756340822566,
+      "recall_percent": 92.64705882352942,
+      "precision_percent": 2.871467639015497
+    },
+    {
+      "top_percent": 100,
+      "n_pairs": 2926,
+      "validated_in_top": 68,
+      "expected_random": 68.0,
+      "enrichment_factor": 1.0,
+      "recall_percent": 100.0,
+      "precision_percent": 2.3239917976760083
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "k_clusters": 3,
+  "linkage": "average",
+  "distance_metric": "cityblock (Hamming sum on 0/1)",
+  "n_draws_clustered": 40000,
+  "n_edges": 2926,
+  "per_cluster": [
+    {
+      "cluster_id": 1,
+      "n_draws": 3,
+      "cluster_mean_pairwise_hamming_exact": 123.33333333333333,
+      "cluster_expected_hamming_iid_marginals": 82.22222222222223,
+      "cluster_hamming_reported": 123.33333333333333,
+      "cluster_precision_index_1_minus_norm_hamming": 0.9578491683754842,
+      "used_exact_pairwise_hamming": true
+    },
+    {
+      "cluster_id": 2,
+      "n_draws": 3,
+      "cluster_mean_pairwise_hamming_exact": 121.33333333333333,
+      "cluster_expected_hamming_iid_marginals": 80.8888888888889,
+      "cluster_hamming_reported": 121.33333333333333,
+      "cluster_precision_index_1_minus_norm_hamming": 0.9585326953748007,
+      "used_exact_pairwise_hamming": true
+    },
+    {
+      "cluster_id": 3,
+      "n_draws": 39994,
+      "cluster_mean_pairwise_hamming_exact": null,
+      "cluster_expected_hamming_iid_marginals": 125.24172522963005,
+      "cluster_hamming_reported": 125.24172522963005,
+      "cluster_precision_index_1_minus_norm_hamming": 0.9571969496822864,
+      "used_exact_pairwise_hamming": false
+    }
+  ],
+  "cluster_maxclust_id_1": {
+    "cluster_id": 1,
+    "n_draws": 3,
+    "cluster_mean_pairwise_hamming_exact": 123.33333333333333,
+    "cluster_expected_hamming_iid_marginals": 82.22222222222223,
+    "cluster_hamming_reported": 123.33333333333333,
+    "cluster_precision_index_1_minus_norm_hamming": 0.9578491683754842,
+    "used_exact_pairwise_hamming": true
+  },
+  "largest_cluster_by_draw_count": {
+    "cluster_id": 3,
+    "n_draws": 39994,
+    "cluster_mean_pairwise_hamming_exact": null,
+    "cluster_expected_hamming_iid_marginals": 125.24172522963005,
+    "cluster_hamming_reported": 125.24172522963005,
+    "cluster_precision_index_1_minus_norm_hamming": 0.9571969496822864,
+    "used_exact_pairwise_hamming": false
+  },
+  "exact_pairwise_hamming_only_if_n_draws_le": 4000,
+  "cluster_input_note": "all_merged_draws"
+}
