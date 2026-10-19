@@ -4,13 +4,8 @@ Data, analysis scripts, and deposited results for:
 
 > Kumar V, Palar A, Krogan NJ, Echeverria I, Sali A. Modeling networks of direct protein–protein contacts based on affinity purification–mass spectrometry data.
 
-INM reads AP-MS spectral counts and SAINT scores and samples networks of direct protein contacts. The modeling code is the companion repository [salilab/integrative_network_modeling](https://github.com/salilab/integrative_network_modeling). The copy of that code under `script/` in this repository is the snapshot that produced the deposited results. Use this snapshot to reproduce the paper. Use `salilab/integrative_network_modeling` to run INM on a new dataset. An earlier INM library, which is not the code for this manuscript, is at [salilab/inm](https://github.com/salilab/inm).
+INM reads AP-MS spectral counts and SAINT scores and samples networks of direct protein contacts. The modeling code is the companion repository [vipul2732/integrative_network_modeling](https://github.com/vipul2732/integrative_network_modeling). The copy of that code under `script/` in this repository is the snapshot that produced the deposited results. Use this snapshot to reproduce the paper. Use `vipul2732/integrative_network_modeling` to run INM on a new dataset. 
 
-## What a reviewer can do
-
-1. **Inspect the manuscript numbers and figures without rerunning sampling.** Edge probabilities, benchmark tables, ROC curves, perturbation results, community tables, and figure files are already in this repository. The map is below.
-2. **Confirm the code runs**, with a short smoke test (minutes, not a manuscript result).
-3. **Regenerate the posterior samples and the figures from the input tables.** That is the full reproduction. It needs a GPU or a long CPU run, plus local copies of BioGRID and PDB files that cannot be stored on GitHub.
 
 ## Repository layout
 
@@ -59,7 +54,7 @@ Ablation configs in the same folders set the model name to `model23_n_no_corr`, 
 
 ## Smoke test
 
-This checks preprocessing and sampling. It does **not** reproduce the manuscript posteriors.
+This checks preprocessing and sampling. It does not reproduce the manuscript posteriors.
 
 ```bash
 cd script
@@ -117,7 +112,7 @@ Repeat with the `cullin_vif` and `cullin_mock` configs and base-dataset names `c
 
 GitHub rejects files larger than 100 MB. These products of a full run are omitted:
 
-- Posterior sample pickles (`*.pkl`), including `merged/merged_chains.pkl`. The three base-model runs together are about 4 GB, and the ablation runs are larger.
+- Posterior sample pickles (`.pkl`), including `merged/merged_chains.pkl`. The three base-model runs together are about 4 GB, and the ablation runs are larger.
 - `binary_edges_full.npy` matrices from the ablation ensembles.
 - The full BioGRID, IntAct, and STRING dumps, and the PDB mmCIF cache (`pdb/cache/`).
 
@@ -162,7 +157,7 @@ See [database/README.md](database/README.md). CORUM is included. BioGRID 5.0.253
 
 ## Data citation
 
-AP-MS measurements: Hüttenhain R, et al. *Cell Host & Microbe* 26, 555–570.e7 (2019). Please also follow the CORUM and BioGRID licenses when you reuse those files.
+AP-MS measurements: Hüttenhain R, et al. Cell Host & Microbe 26, 555–570.e7 (2019). Please also follow the CORUM and BioGRID licenses when you reuse those files.
 
 ## License
 
